@@ -39,9 +39,9 @@
                             <div class="tile-content">
                                 <div class="panel no-border">
                                     <div class="panel-header bg-blue fg-white">Introduction</div>
-                                    <div class="panel-content fg-dark nlp nrp">
+                                    <div class="panel-content text-justify">
                                         <img src="images/Gopala_iit.jpg" class="place-left margin10 nlm ntm size2">
-                                        Hi....<br />
+                                        <p>Hi...</p>
 
                                         <P>Heartily welcome to my website!!!!!!!</P>
 
