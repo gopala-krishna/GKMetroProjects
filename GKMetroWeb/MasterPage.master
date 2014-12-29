@@ -28,12 +28,12 @@
     <!-- Local JavaScript -->
     <script src="js/docs.js"></script>
     <script src="js/github.info.js"></script>
-
+    <title> Gopala Krishna's Website</title>
 </head>
-<body class="metro" style="background-color: #efeae3">
+<body class="metro bg-white">
     <form id="form1" runat="server">
         <div class="navigation-bar dark">
-    <div class="navigation-bar-content container">
+        <div class="navigation-bar-content container">
         <a href="/" class="element"><span class="icon-grid-view  fg-blue"></span> GopalaKrishna <sup>1.0</sup></a>
         <span class="element-divider"></span>
         <a class="element1 pull-menu"></a>
@@ -45,8 +45,7 @@
                         <a href="#" class="dropdown-toggle">About Me</a>
                         <ul class="dropdown-menu dark" data-role="dropdown">
                             <li><a href="MyInterests.aspx">My Interests</a></li>
-                            <li><a href="">My Favorites</a></li>
-                            <li><a href="">My Profession</a></li>
+                            <li><a href="MyProfession.aspx">My Profession</a></li>
                             <li><a href="">My Family</a></li>
                         </ul>
                     </li>
@@ -227,15 +226,13 @@
             <!--<div class="element place-right" title="GitHub Forks"><span class="icon-share-2"></span> <span class="github-forks">0</span></div>-->
         </div>
     </div>
+   
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
 
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
+    </asp:ContentPlaceHolder>
+<%--<footer class ="" data-load ="Footer.aspx"></footer>--%>
 
-        </asp:ContentPlaceHolder>
-    </div>
-<%--        <footer class ="" data-load ="Footer.aspx"></footer>--%>
-
-         <div class="bg-black">
+        <div class="bg-black">
             <div class="container">
                 <div class="grid no-margin">
                     <div class="row no-margin">
@@ -287,7 +284,7 @@
                 </div>
             </div>
 
-            <div class="container tertiary-text bg-black fg-white" style="padding: 10px">
+            <div class="container tertiary-text bg-black fg-white" >
                 <footer>
                     <div class="bottom-menu-wrapper fg-white" >
                         <ul class="horizontal-menu compact fg-white">
@@ -302,7 +299,7 @@
                 </footer>
             </div>
         </div>
-    </form>
         <script src="js/hitua.js"></script>
+        </form>
 </body>
 </html>

@@ -15,8 +15,7 @@
                         <a href="#" class="dropdown-toggle">About Me</a>
                         <ul class="dropdown-menu dark" data-role="dropdown">
                             <li><a href="~/App_UI/Test.aspx">My Interests</a></li>
-                            <li><a href="">My Favorites</a></li>
-                            <li><a href="">My Profession</a></li>
+                            <li><a href="MyProfession.aspx">My Profession</a></li>
                             <li><a href="">My Family</a></li>
                         </ul>
                     </li>

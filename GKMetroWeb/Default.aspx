@@ -1,8 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/MasterPage.master" CodeFile="Default.aspx.cs" Inherits="_Default" culture="auto" meta:resourcekey="PageResource1" uiculture="auto" %>
 
 <asp:Content ContentPlaceHolderID ="ContentPlaceHolder1" runat ="server">
-
-<body class="metro" style="background-color: #efeae3">
     <div class="bg-white" >
         <div class=" bg-blue">
             <div style="background: url(images/tbd.jpg) top left no-repeat; background-size: cover; height: 200px; ">
@@ -181,7 +179,5 @@
         </div>
     </div>
     <script src="js/hitua.js"></script>
-</body>
-
 </asp:Content>
 
