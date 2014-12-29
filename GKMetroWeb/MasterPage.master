@@ -1,0 +1,311 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="product" content="Gopala Website"/>
+    <meta name="description" content="Gopala Website"/>
+    <meta name="author" content="Gopala Krishna"/>
+    <meta name="keywords" content="js, css, metro, framework, windows 8, metro ui, IIT Bombay, Microsoft"/>
+
+    <link href="css/metro-bootstrap.css" rel="stylesheet"/>
+    <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="css/iconFont.css" rel="stylesheet"/>
+    <link href="css/docs.css" rel="stylesheet"/>
+    <link href="js/prettify/prettify.css" rel="stylesheet"/>
+
+    <!-- Load JavaScript Libraries -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/jquery/jquery.widget.min.js"></script>
+    <script src="js/jquery/jquery.mousewheel.js"></script>
+    <script src="js/prettify/prettify.js"></script>
+
+    <!-- Metro UI CSS JavaScript plugins -->
+    <script src="js/load-metro.js"></script>
+        "
+
+    <!-- Local JavaScript -->
+    <script src="js/docs.js"></script>
+    <script src="js/github.info.js"></script>
+
+</head>
+<body class="metro" style="background-color: #efeae3">
+    <form id="form1" runat="server">
+        <%--<header class="bg-dark" data-load="Header.aspx"></header>--%>
+        <div class="navigation-bar dark">
+    <div class="navigation-bar-content container">
+        <a href="/" class="element"><span class="icon-grid-view  fg-blue"></span> GopalaKrishna <sup>1.0</sup></a>
+        <span class="element-divider"></span>
+        <a class="element1 pull-menu"></a>
+        <ul class="element-menu">
+            <li>
+                <a class="dropdown-toggle" href ="#">My Personal</a>
+                <ul class="dropdown-menu dark" data-role="dropdown">
+                    <li>
+                        <a href="#" class="dropdown-toggle">About Me</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="MyInterests.aspx">My Interests</a></li>
+                            <li><a href="">My Favorites</a></li>
+                            <li><a href="">My Profession</a></li>
+                            <li><a href="">My Family</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">My Photos</a></li>
+                </ul>
+            </li>
+             <li>
+                <a href="#" class="dropdown-toggle">InterestingStuff</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                </ul>-->
+            </li>
+             <li>
+                <a href="#" class="dropdown-toggle">Math Fun</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                </ul>-->
+            </li>
+            <li>
+                <a class="dropdown-toggle"  href="#">Technology</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="tiles.html">Tiles</a></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Navigation</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="navbar.html">Navigation Bar</a></li>
+                            <li><a href="menus.html">Menus</a></li>
+                            <li><a href="fluent-menu.html">Fluent Menu</a></li>
+                            <li><a href="sidebar.html">Sidebar</a></li>
+                            <li><a href="tab-control.html">Tab Control</a></li>
+                            <li><a href="accordion.html">Accordion</a></li>
+                            <li><a href="buttons.html#_set">Button Set</a></li>
+                            <li><a href="buttons.html#_breadcrumbs">Breadcrumbs</a></li>
+                            <li><a href="wizard.html">Wizard</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Visualisation</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="rating.html">Rating</a></li>
+                            <li><a href="progress-bar.html">Progress Bar</a></li>
+                            <li><a href="scroll.html">Scroll Bar</a></li>
+                            <li><a href="slider.html">Slider</a></li>
+                            <li><a href="carousel.html">Carousel</a></li>
+                            <li><a href="treeview.html">TreeView</a></li>
+                            <li><a href="lists.html">Lists</a></li>
+                            <li><a href="hint.html">Hint</a></li>
+                            <li><a href="balloon.html">Balloon</a></li>
+                            <li><a href="notices.html">Notices</a></li>
+                            <li><a href="stepper.html">Stepper</a></li>
+                            <li><a href="panels.html">Panel</a></li>
+                            <li><a href="streamer.html">Streamer</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Date and Time</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="calendar.html">Calendar</a></li>
+                            <li><a href="datepicker.html">DatePicker</a></li>
+                            <li><a href="times.html">Times</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Information</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="window.html">Window</a></li>
+                            <li><a href="dialog.html">Dialog</a></li>
+                            <li><a href="notify.html">Notify</a></li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">Third-party</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="dataTables.html">DataTables</a></li>
+                        </ul>
+                    </li>
+                </ul>-->
+            </li>
+            <li>
+                <a href="#" class="dropdown-toggle">Music</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                </ul>-->
+            </li>
+            <li>
+                <a class="dropdown-toggle"  href="#">Product Management</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li class="disabled"><a href="http://blog.metroui.net">Blog</a></li>
+                    <li class="disabled"><a href="http://forum.metroui.net">Community Forum</a></li>
+                    <li class="divider"></li>
+                    <li><a href="https://github.com/olton/Metro-UI-CSS">Github</a></li>
+                    <li class="divider"></li>
+                    <li><a href="https://github.com/olton/Metro-UI-CSS/blob/master/LICENSE">License</a></li>
+                </ul>-->
+            </li>
+             <li>
+                <a href="#" class="dropdown-toggle">Photography</a>
+                <!--<ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                </ul>-->
+            </li>
+             <li>
+                <a href="#" class="dropdown-toggle">GuestBook</a>
+                <ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="SignInGuestBook.aspx ">Sign In GuestBook</a></li>
+                    <li><a href=" ">View GuestBook</a></li>
+                </ul>
+            </li>
+            <!--<li>
+                <a href="#" class="dropdown-toggle fg-yellow">Examples</a>
+                <ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="examples.html">Top page</a></li>
+                    <li class="divider"></li>
+
+                    <li>
+                        <a href="#" class="dropdown-toggle">General</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="examples.html#__table__">Table</a></li>
+                            <li><a href="examples.html#__form__">Form</a></li>
+                            <li><a href="examples.html#__buttons__">Buttons</a></li>
+                            <li><a href="examples.html#__image__">Images</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="dropdown-toggle">Navigation</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="examples.html#__navbar__">Navigation bar</a></li>
+                            <li><a href="examples.html#__dropdown__">Dropdown menu</a></li>
+                            <li><a href="examples.html#__sidebar__">Sidebar</a></li>
+                            <li><a href="examples.html#__tabs__">Tab control</a></li>
+                            <li><a href="examples.html#__accordion__">Accordion</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="dropdown-toggle">Visualization</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="examples.html#__tile__">Tiles</a></li>
+                            <li><a href="examples.html#__rating__">Rating</a></li>
+                            <li><a href="examples.html#__progress__">Progress bar</a></li>
+                            <li><a href="examples.html#__scroll__">Scroll bar</a></li>
+                            <li><a href="examples.html#__slider__">Slider</a></li>
+                            <li><a href="examples.html#__carousel__">Carousel</a></li>
+                            <li><a href="examples.html#__tree__">Tree view</a></li>
+                            <li><a href="examples.html#__lists__">List view</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="dropdown-toggle">Visualization 2</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="examples.html#__hint__">Hint</a></li>
+                            <li><a href="examples.html#__balloon__">Balloon</a></li>
+                            <li><a href="examples.html#__notice__">Notice</a></li>
+                            <li><a href="examples.html#__calendar__">Calendar</a></li>
+                            <li><a href="examples.html#__times__">Countdown &amp; Times</a></li>
+                            <li><a href="examples.html#__window__">Windows</a></li>
+                            <li><a href="examples.html#__streamer__">Streamer</a></li>
+                            <li><a href="examples.html#__panel__">Panel</a></li>
+                            <li><a href="examples.html#__stepper__">Stepper</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>-->
+        </ul>
+
+        <!--<div class="no-tablet-portrait no-phone">
+            <a title="Nuget.org" href="https://www.nuget.org/packages/Metro.UI.CSS/" class="element place-right"><span class="icon-box-add"></span></a>
+            <span class="element-divider place-right"></span>
+            <a title="GitHub" href="https://github.com/olton/Metro-UI-CSS" class="element place-right"><span class="icon-github"></span></a>
+            <span class="element-divider place-right"></span>
+            <a title="CSS3 validator" href="http://jigsaw.w3.org/css-validator/validator?uri=metroui.org.ua&profile=css3&usermedium=all&warning=no&vextwarning=" class="element place-right"><span class="icon-css3"></span></a>
+            <span class="element-divider place-right"></span>
+            <div class="element place-right" title="GitHub Stars"><span class="icon-star"></span> <span class="github-watchers">0</span></div>
+            <!--<span class="element-divider place-right"></span>-->
+            <!--<div class="element place-right" title="GitHub Forks"><span class="icon-share-2"></span> <span class="github-forks">0</span></div>-->
+        </div>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+<%--        <footer class ="" data-load ="Footer.aspx"></footer>--%>
+
+         <div class="bg-black">
+            <div class="container">
+                <div class="grid no-margin">
+                    <div class="row no-margin">
+
+                        <div class="span3 padding10">
+                            <img src="/images/Gopala_iit.jpg" alt="" class="polaroid" />
+                        </div>
+
+                        <div class="span4 padding10">
+
+                            <h3 class="fg-white">Follow Me</h3>
+                            <a class="icon-blogger on-right on-left" href ="http://gopalakrishnaiitb.blogspot.in/" style="background: orange;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-blogger on-right on-left" href ="http://gopalakrishnatech.blogspot.in/" style="background: red;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-facebook on-right on-left" href ="https://www.facebook.com/gopalakrishna.iitb" style="background: blue;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-linkedin on-right on-left" href ="https://www.linkedin.com/profile/view?id=97684873&trk=nav_responsive_tab_profile" style="background: magenta;color: white; padding: 10px; border-radius: 50%"></a>
+
+                            <h3 class="fg-white">Contact Me</h3>
+                            <a class="icon-phone on-right on-left" href ="tel:918978556611" style="background: orange;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-mail on-right on-left" href ="mailto:gopala.krishna@outlook.com" style="background: green;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-location on-right on-left" href ="" style="background: yellow;color: white; padding: 10px; border-radius: 50%"></a>
+                            <a class="icon-skype on-right on-left" href ="" style="background: skyblue;color: white; padding: 10px; border-radius: 50%"></a>
+
+                        </div>
+
+                     
+                         <div class="span6 padding5">
+                                    <p class="fg-white">Contact me if you need professional advice on</p>
+                            </div>
+                        <div class="span3 padding10">
+                            <a class="button bg-green fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Microsoft.NET</a>
+                            <a class="button bg-yellow fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Windows 8</a>
+                            <a class="button bg-red fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Hacking</a>
+                            <a class="button bg-pink fg-white" style="width: 100%; margin-bottom: 5px" href=" ">BigData</a>
+                            <a class="button bg-orange fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Product Management</a>
+                            <a class="button bg-magenta fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Mobile Device Management</a>
+                            <a class="button bg-blue fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Cross Platform Technologies</a>
+                        </div>
+                      <div class="span3 padding10">
+                        <a class="button bg-yellow fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Frameworks Design</a>
+                            <a class="button bg-blue fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Windows Internals</a>
+                            <a class="button bg-pink fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Web Scalability Design</a>
+                            <a class="button bg-magenta fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Website Design</a>
+                            <a class="button bg-orange fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Mathematics</a>
+                            <a class="button bg-red fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Photography</a>
+                            <a class="button bg-green fg-white" style="width: 100%; margin-bottom: 5px" href=" ">Social Psychology</a>>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container tertiary-text bg-black fg-white" style="padding: 10px">
+                <footer>
+                    <div class="bottom-menu-wrapper fg-white" >
+                        <ul class="horizontal-menu compact fg-white">
+                            <li>&copy; 2014 Gopala Krishna</li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+        <script src="js/hitua.js"></script>
+</body>
+</html>
