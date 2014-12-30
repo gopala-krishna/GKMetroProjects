@@ -7,34 +7,106 @@
                         <div class="span16">
                             <div class="tile-content">
                                 <div class="panel no-border">
-
                                     <div class="panel-header bg-blue fg-white text-center">My Interests</div>
 
                                             <div class="container">
-                                                    <div class="grid no-margin">
-                                                        <div class="row">
+                                                   <div class="grid no-margin">
+                                                        <div class="row accordion-frame">
                                                             <div class="span4 no-tablet-portrait no-phone">
-                                                                <div class="notice marker-on-right bg-orange padding20 text-center" style="height: 100px">
+                                                                <div class="notice marker-on-right bg-orange  text-center" style="height: 100px">
                                                                     <p class="subheader-secondary fg-white"><h2>Movies</h2></p>
                                                                 </div>
                                                             </div>
-                                                            <div class="span8">
-                                                                <ul >
-                                                                    <li style="width: 90%">"Hrudayam" ( This is my all time favorite movie)</li>
-                                                                    <li style="width: 90%">Aithe (Telugu)</li>
-                                                                    <li style="width: 90%">Phone booth (English)</li>
-                                                                    <li style="width: 90%">Sweet November (English)</li>
-                                                                    <li style="width: 90%">Run Lola run (German)</li>
-                                                                    <li style="width: 90%">Masoom(Hindi)</li>
-                                                                    <li style="width: 90%">Mouna Raagam (Telugu)</li>
-                                                                    <li style="width: 90%">Arya (Telugu)</li>
-                                                                    <li style="width: 90%">Nuvvu naaku nachav (Telugu)</li>
-                                                                    <li style="width: 90%">A Walk to Remember ( English)</li>
-                                                                    <li style="width: 90%">If Only ( English)</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+
+                                                    
+                                                 <div class =" span2 padding15 " >                          
+                                                <div class="accordion with-marker span9 padding place-left" data-role="accordion" data-closeany="false">
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">"Hrudayam"(This is my all time favorite movie)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>
                                                     </div>
+                                                </div>
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">Aithe (Telugu)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/2lz8JnZ13gQ"></iframe>
+                                                    </div>
+                                                </div>
+
+                                              <div class="accordion-frame" >
+                                                    <a class="heading">Phone booth (English)</a>
+                                                    <div class="content" >
+                                                   <%--     <iframe width="640" height="480"src="//www.youtube.com/embed/Umqb9KENgmk"></iframe>--%>
+                                                    </div>
+                                                </div>
+
+                                              <div class="accordion-frame" >
+                                                    <a class="heading">Sweet November (English)</a>
+                                                    <div class="content" >
+                                                   <%--     <iframe width="640" height="480"src="//www.youtube.com/embed/Umqb9KENgmk"></iframe>--%>
+                                                    </div>
+                                                </div>
+
+                                             <div class="accordion-frame" >
+                                                    <a class="heading">Run Lola run (German)</a>
+                                                    <div class="content" >
+                                                        <%--<iframe width="640" height="480"src="//www.youtube.com/embed/Umqb9KENgmk"></iframe>--%>
+                                                    </div>
+                                                </div>
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">Masoom(Hindi)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/0dr7tibdmrQ"></iframe>
+                                                    </div>
+                                                </div>
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">Mouna Raagam (Telugu)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/xeaefkhUWtk"></iframe>
+                                                    </div>
+                                                </div>
+
+                                               <div class="accordion-frame" >
+                                                    <a class="heading">Arya (Telugu)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/BVFD4IXuLHg"></iframe>
+                                                    </div>
+                                                </div>
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">Nuvvu naaku nachav (Telugu)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/yEcrfM8DaSQ"></iframe>
+                                                    </div>
+                                                </div>
+                                               
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">A Walk to Remember ( English)</a>
+                                                    <div class="content" >
+                                                        <%--<iframe width="640" height="480"src="//www.youtube.com/embed/Umqb9KENgmk"></iframe>--%>
+                                                    </div>
+                                                </div>
+
+                                                <div class="accordion-frame" >
+                                                    <a class="heading">If Only ( English)</a>
+                                                    <div class="content" >
+                                                        <iframe width="640" height="480"src="//www.youtube.com/embed/dO4DQuooKMk"></iframe>
+                                                    </div>
+                                                </div>
+                                               </div>
+                                             </div>
+                                        </div>
+                                     </div>    
+
+                                                        
+
+
+                                                     
 
                                             <div class="container">
                                                     <div class="grid no-margin">
