@@ -25,9 +25,11 @@
 
     <!-- Metro UI CSS JavaScript plugins -->
     <script src="js/load-metro.js"></script>
+
     <!-- Local JavaScript -->
     <script src="js/docs.js"></script>
     <script src="js/github.info.js"></script>
+
     <title> Gopala Krishna's Website</title>
 </head>
 <body class="metro bg-white">
@@ -254,9 +256,12 @@
                             <a class="icon-mail on-right on-left" href ="mailto:gopala.krishna@outlook.com" style="background: green;color: white; padding: 10px; border-radius: 50%"></a>
                             <a class="icon-location on-right on-left" href ="" style="background: yellow;color: white; padding: 10px; border-radius: 50%"></a>
                             <a class="icon-skype on-right on-left" href ="" style="background: skyblue;color: white; padding: 10px; border-radius: 50%"></a>
-
+                           
+                             <h3 class="fg-white"> Like & Share</h3>
+                             <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fgeekgopalakrishna.com%2F&amp;width=200&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
                         </div>
 
+                           
                      
                          <div class="span6 padding5">
                                     <p class="fg-white">Contact me if you need professional advice on</p>
