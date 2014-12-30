@@ -18,7 +18,7 @@
                                                                     <p class="subheader-secondary fg-white"><h2> My profile</h2></p>
                                                                 </div>
                                                             </div>
-                                                            <div class="span8">
+                                                            <div class="span10">
                                                              
                                                                 <div class="panel-content text-justify">
 
