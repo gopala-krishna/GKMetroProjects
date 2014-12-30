@@ -111,12 +111,12 @@
                             </div>
                         </div>
 
-                        <div class="span11" text>
-                            <div class="tile-content" >
-                                <div class="panel no-border">
+                        <div class="span11" >
+                            <div class="tile-content " >
+                                <div class="panel no-border text-justify">
                                     <div class="panel-header bg-blue fg-white">My Frequent Hangouts</div>
-                                        <div class="span3 padding10 text-center text-bold" >
-                                            <a class="image-button bg-red fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" http://sysinternals.com"><img src="images/wsys.png" /></a>
+                                        <div class="span3 padding10 text-center " >
+                                            <a class="button bg-red fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" http://sysinternals.com"><img src="images/wsys.png" /></a>
                                             <a class="button bg-green fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://msdn.com "><img src="images/msdnlogo.png" /></a>
                                             <a class="button bg-magenta fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://platformed.info/ "><img src="images/platformthinking.png" /></a>
                                             <a class="button bg-yellow fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.onwindows.com/"><img src="images/onwindows.png" /></a>
