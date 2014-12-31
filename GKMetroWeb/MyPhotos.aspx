@@ -8,13 +8,14 @@
         <meta name="keywords" content="Gopala Krishna, IIT Bombay, Microsoft,image gallery, jquery, full page, full screen, css3, auto scroll, scrollable, fancy, photography, portfolio"/>
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+         <link href="css/iconFont.css" rel="stylesheet"/>
         <style>
 			span.reference{
 				font-family:Arial;
 				position:fixed;
-				right:10px;
-				top:10px;
-				font-size:10px;
+				right:20px;
+				top:20px;
+				font-size:20px;
 			}
 			span.reference a{
 				color:#fff;
@@ -95,7 +96,7 @@
     </head>
 
     <body>
-		<h1 class="title">Gopala Krishna - Full Page Image Gallery with jQuery</h1>
+		<h1 class="title">Gopala Krishna Photos</h1>
 		<div id="fp_gallery" class="fp_gallery">
 			<img src="images/1.jpg" alt="" class="fp_preview" style="display:none;"/>
 			<div class="fp_overlay"></div>
@@ -125,11 +126,13 @@
 			</div>
 			<div id="fp_thumbtoggle" class="fp_thumbtoggle">View Thumbs</div>
 		</div>
+        
         <div>
             <span class="reference">
-				<a href="http://gopala-krishna.com">Photos by Gopala Krishna</a>
+				  <a class="icon-home on-right " href ="http://geekgopalakrishna.com/" style="background: red;color: white; padding: 10px; border-radius: 100%"></a>
             </span>
 		</div>
+                        
 
         <!-- The JavaScript -->
 
