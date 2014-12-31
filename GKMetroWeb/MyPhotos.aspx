@@ -106,10 +106,17 @@
 				<div id="thumbScroller">
 					<div class="container">
 						<div class="content">
-							<div><a href="#"><img src="images/MyPhotos/thumbs/1.jpg" alt="images/MyPhotos/1.jpg" class="thumb" /></a></div>
+
+					    <div><a href="#"><img src="images/MyPhotos/thumbs/1.jpg" alt="images/MyPhotos/1.jpg" class="thumb" /></a></div>
 						</div>
 						<div class="content">
 							<div><a href="#"><img src="images/MyPhotos/thumbs/2.jpg" alt="images/MyPhotos/2.jpg" class="thumb" /></a></div>
+						</div>
+                        <div class="content">
+							<div><a href="#"><img src="images/MyPhotos/thumbs/3.jpg" alt="images/MyPhotos/3.jpg" class="thumb" /></a></div>
+						</div>
+						<div class="content">
+							<div><a href="#"><img src="images/MyPhotos/thumbs/4.jpg" alt="images/MyPhotos/4.jpg" class="thumb" /></a></div>
 						</div>
 						
 						
