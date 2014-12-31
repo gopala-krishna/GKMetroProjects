@@ -24,6 +24,7 @@
 
     <!-- Metro UI CSS JavaScript plugins -->
     <script src="js/load-metro.js"></script>
+    
 
     <!-- Local JavaScript -->
     <script src="js/docs.js"></script>
@@ -50,7 +51,7 @@
                             <li><a href="">My Family</a></li>
                         </ul>
                     </li>
-                    <li><a href="">My Photos</a></li>
+                    <li><a href="MyPhotos.aspx">My Photos</a></li>
                 </ul>
             </li>
              <li>
