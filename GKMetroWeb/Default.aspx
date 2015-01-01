@@ -216,31 +216,109 @@
         </div>
 
         <div class="bg-lightGreen no-tablet-portrait no-phone ">
+            <div class="container">
+                    <h2 class="fg-black "><b><i>Find answers by browsing my website</i></b></h2>
+                </div>
             <div class="container padding20 fg-white">
                 <div class="carousel bg-transparent no-overflow" id="carousel2">
+
+
                     <div class="slide">
                         <div class="place-right">
-                            <img src="/images/css-logo.png"
-                                 alt="" class="span3" />
+                            <img src="/images/Banners/csharp.png"
+                                 alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Used Windows 8 Theme</h2>
+                        <h2 class="fg-white ntm">Can we instantiate an interface in C# ?</h2>
                     </div>
-                    <div class="slide">
-                        <div class="place-right padding20 ntp nrp nbp">
-                            <img src="/images/bizspark_b_2.png"
-                                 alt="" class="span3" />
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/opendotnet.png"
+                                 alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">BizSpark Startup</h2>
+                        <h2 class="fg-white ntm">Is .NET purely open source ?</h2>
                     </div>
-                    <div class="slide">
-                        <h2 class="fg-white ntm">Thanks to IIT Bombay</h2>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/pi.png"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Unbelivable facts about Pi</h2>
                     </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/snakesears.jpg"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Does snakes have ears?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/plantsreproduction.png"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Can plants reproduce without flowers or seeds?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/finland.jpg"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Which country does not have night?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/cerebellum.jpg"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Which part of brain controls hearat beat?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/earthdia.png"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Is there any difference in ploar and eqator diameters of earth?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/animalslivewithouto2.png"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Can animals live without oxygen?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/sneezing.jpg"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">Is it absolutely impossible to sneeze with your eyes open?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
+                            <img src="/images/Banners/pig.png"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white ntm">which animal is lucky to have the longest orgasm?</h2>
+                    </div>
+
+
+
                 </div>
                 <script>
                     $(function () {
                         $("#carousel2").carousel({
-                            height: 120,
-                            period: 5000,
+                            height: 150,
+                            period: 1000,
                             duration: 1000,
                             effect: 'fade',
                             markers: {
