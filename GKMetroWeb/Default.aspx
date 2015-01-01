@@ -19,6 +19,8 @@
         <div class="container">
             <div class="grid no-margin">
                 <div class="row">
+                   
+
                     <div class="span3">
                             <nav class="horizontal-menu ">
                                 <ul>
@@ -27,11 +29,11 @@
                                     </li>
 
                                      <li>
-                                        <a class="dropdown-toggle fg-bule no-marker" href ="#">My Personal</a>
-                                        <ul class="dropdown-menu fg-bule" data-show="hover" >
+                                        <a class="dropdown-toggle  fg-blue no-marker" href ="#">My Personal</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover" >
                                             <li>
-                                                <a href="#" class="dropdown-toggle fg-bule">About Me</a>
-                                                <ul class="dropdown-menu fg-bule" data-role="dropdown">
+                                                <a href="#" class="dropdown-toggle fg-blue">About Me</a>
+                                                <ul class="dropdown-menu fg-blue" data-show="hover" data-role="dropdown">
                                                     <li><a href="MyInterests.aspx">My Interests</a></li>
                                                     <li><a href="MyProfession.aspx">My Profession</a></li>
                                                     <li><a href="">My Family</a></li>
@@ -42,15 +44,15 @@
                                     </li><br /><br /><br />
 
                                      <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Interesting Stuff</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Interesting Stuff</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
                                         </ul>
                                     </li><br /><br /><br />
                                         <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Math Fun</a>
+                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Math Fun</a>
                                         <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
@@ -59,8 +61,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Technology</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Technology</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -68,8 +70,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Music</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Music</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -77,8 +79,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Product Management</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Product Management</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -86,8 +88,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">Photography</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Photography</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -95,8 +97,8 @@
                                     </li><br /><br /><br />
 
                                        <li>
-                                        <a class="dropdown-toggle  no-marker" href="#">GuestBook</a>
-                                        <ul class="dropdown-menu " data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">GuestBook</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -105,6 +107,7 @@
                                 </ul>
                             </nav>
                         </div>
+                        
 
                         <div class="span11">
                             <div class="tile-content">
