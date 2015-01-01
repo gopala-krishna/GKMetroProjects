@@ -19,18 +19,89 @@
         <div class="container">
             <div class="grid no-margin">
                 <div class="row">
-                    <div class="span3" style="height: 800px">
-                            <nav class="vertical-menu">
+                    <div class="span3">
+                            <nav class="horizontal-menu ">
                                 <ul>
-                                    <li class="title bg-active-black">Discover</li><br />
-                                    <li class="fg-blue"><a href="">My Personal</a></li><br />
-                                    <li class="fg-blue"><a href="#">Interesting Stuff</a></li><br />
-                                    <li class="fg-blue"><a href="#">Math Fun</a></li><br />
-                                    <li class="fg-blue"><a href="#">Technology</a></li><br />
-                                    <li class="fg-blue"><a href="">Music</a></li><br />
-                                    <li class="fg-blue"><a href="#">Product Management</a></li><br />
-                                    <li class="fg-blue"><a href="#">Photography</a></li><br />
-                                    <li class="fg-blue"><a href="#">GuestBook</a></li><br />
+                                    <li>
+                                        <a class="dropdown-toggle fg-white no-marker"></a>
+                                    </li>
+
+                                     <li>
+                                        <a class="dropdown-toggle fg-bule no-marker" href ="#">My Personal</a>
+                                        <ul class="dropdown-menu fg-bule" data-show="hover" >
+                                            <li>
+                                                <a href="#" class="dropdown-toggle fg-bule">About Me</a>
+                                                <ul class="dropdown-menu fg-bule" data-role="dropdown">
+                                                    <li><a href="MyInterests.aspx">My Interests</a></li>
+                                                    <li><a href="MyProfession.aspx">My Profession</a></li>
+                                                    <li><a href="">My Family</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="MyPhotos.aspx">My Photos</a></li>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                     <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Interesting Stuff</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+                                        <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Math Fun</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                        <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Technology</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                        <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Music</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                        <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Product Management</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                        <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">Photography</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li><br /><br /><br />
+
+                                       <li>
+                                        <a class="dropdown-toggle  no-marker" href="#">GuestBook</a>
+                                        <ul class="dropdown-menu " data-show="hover">
+                                           <%-- <li><a href="#">Sublink 1</a></li>
+                                            <li><a href="#">Sublink 2</a></li>
+                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
