@@ -318,7 +318,7 @@
                     $(function () {
                         $("#carousel2").carousel({
                             height: 150,
-                            period: 1000,
+                            period: 3000,
                             duration: 1000,
                             effect: 'fade',
                             markers: {
