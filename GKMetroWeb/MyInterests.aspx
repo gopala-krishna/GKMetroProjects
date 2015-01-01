@@ -19,7 +19,7 @@
                                                             </div>
 
                                                     
-                                                 <div class =" span2 padding15 " >                          
+                                                <div class =" span2 padding15 " >                          
                                                 <div class="accordion with-marker span9 padding place-left" data-role="accordion" data-closeany="false">
 
                                                 <div class="accordion-frame" >
@@ -103,12 +103,6 @@
                                         </div>
                                      </div>    
 
-                                                        
-
-
-                                                     
-
-                                            <div class="container">
                                                     <div class="grid no-margin">
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
@@ -116,34 +110,155 @@
                                                                     <p class="subheader-secondary fg-white"><h2>Songs</h2></p>
                                                                 </div>
                                                             </div>
-                                                            <div class="span8">
-                                                                <ul >
-                                                                    <li style="width: 90%">Sumam prati sumam sumam.. (illayaraja's song from Maharshi)</li>
-                                                                    <li style="width: 90%">Jilibili palukula ......(illayaraja's song from Sitara)</li>
-                                                                    <li style="width: 90%">Ninnu koori varnam..( illayaraja's song from Gharshana)</li>
-                                                                    <li style="width: 90%">Rangulalo kalavo.... (illlayaraja's song from Abhinandana)</li>
-                                                                    <li style="width: 90%">Mounamelanoye ...(illayaraja's song from Sagara sangamam)</li>
-                                                                    <li style="width: 90%">Kothaga Rekkalochena ....(illayaraja's song from swarnakamalam)</li>
-                                                                    <li style="width: 90%">Neevega naa pranam (illayaraja's song from Oo Papa Laali)</li>
-                                                                    <li style="width: 90%">Oo papa laali.... (illayaraja's song from Geethanjali)</li>
-                                                                    <li style="width: 90%">Who can say...(Enya's song from Sweet November (English))</li>
-                                                                    <li style="width: 90%">Saagar Kinare ...(R.D Burman's song from Saagar(Hindi))</li>
-                                                                    <li style="width: 90%">Humein aur jeene ki...(R.D Burman's song from Agar tum na hote(Hindi)</li>
-                                                                    <li style="width: 90%">Naa inti mundunna ..(A.R.Rehman's song from Gentlemen)</li>
-                                                                    <li style="width: 90%">Nee navvu cheppindi naatho(R.D.Burman's song from Antham, especially i like the lyrics of this song)</li>
-                                                                    <li style="width: 90%">Ghallu ghalluna..(O.P .Nayyr's song from Neerajanam)</li>
-                                                                    <li style="width: 90%">Chariots of fire, Vangelis, Theme music (English)</li>
-                                                                    <li style="width: 90%">Nuvvena.....(Radhakrishnan's song from Anand)</li>
-                                                                    <li style="width: 90%">Hoton se choo lo tum (R.D Burman's song form Premgeet)</li>
-                                                                    <li style="width: 90%">Nazar ke saamne (Nadeem Shravan's song from Ashiqui)</li>
-                                                                    <li style="width: 90%">There She Goes (Lee Mavers number from The La's(English))</li>
-                                                                    <li style="width: 90%">Muddugare yashoda (Devotional song of Annamayya)</li>
-                                                                </ul>
+
+                                                            <div class =" span2 padding15 " >                          
+                                                            <div class="accordion with-marker span9 padding place-left" data-role="accordion" data-closeany="false">
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Sumam prati sumam sumam.. (illayaraja's song from Maharshi)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
                                                             </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Jilibili palukula ......(illayaraja's song from Sitara)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Ninnu koori varnam..( illayaraja's song from Gharshana)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Rangulalo kalavo.... (illlayaraja's song from Abhinandana)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Mounamelanoye ...(illayaraja's song from Sagara sangamam)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Kothaga Rekkalochena ....(illayaraja's song from swarnakamalam)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Neevega naa pranam (illayaraja's song from Oo Papa Laali)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Oo papa laali.... (illayaraja's song from Geethanjali)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Who can say...(Enya's song from Sweet November (English))</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Saagar Kinare ...(R.D Burman's song from Saagar(Hindi))</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Humein aur jeene ki...(R.D Burman's song from Agar tum na hote(Hindi)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Naa inti mundunna ..(A.R.Rehman's song from Gentlemen)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Nee navvu cheppindi naatho(R.D.Burman's song from Antham, especially i like the lyrics of this song)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Ghallu ghalluna..(O.P .Nayyr's song from Neerajanam)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Chariots of fire, Vangelis, Theme music (English)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Nuvvena.....(Radhakrishnan's song from Anand)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Hoton se choo lo tum (R.D Burman's song form Premgeet)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Nazar ke saamne (Nadeem Shravan's song from Ashiqui)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">There She Goes (Lee Mavers number from The La's(English))</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Muddugare yashoda (Devotional song of Annamayya)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
                                                         </div>
                                                     </div>
+                                                 </div>
+                                             </div>    
 
-                                              <div class="container">
                                                     <div class="grid no-margin">
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
@@ -151,24 +266,59 @@
                                                                     <p class="subheader-secondary fg-white"><h2>Places</h2></p>
                                                                 </div>
                                                             </div>
-                                                            <div class="span8">
+
+                                                            <div class =" span2 padding15 " >                          
+                                                            <div class="accordion with-marker span9 padding place-left" data-role="accordion" data-closeany="false">
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Hyderabad ( I love everything in hyderabad )</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Mumbai(Back waters at New Bombay,Banstand)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Banglore and Mysore (Brundavan Gardens, Shivaji palace)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="accordion-frame" >
+                                                                <a class="heading">Vizag(Borra caves, Araku, Gangavaram beach)</a>
+                                                                <div class="content" >
+                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
+                                                                </div>
+                                                            </div>
+
+
+
+
+                                                            <%--<div class="span8">
                                                                 <ul >
                                                                     <li style="width: 90%">Hyderabad ( I love everything in hyderabad )</li>
                                                                     <li style="width: 90%">Mumbai(Back waters at New Bombay,Banstand)</li>
                                                                     <li style="width: 90%">Banglore and Mysore (Brundavan Gardens, Shivaji palace)</li>
                                                                     <li style="width: 90%">Vizag(Borra caves, Araku, Gangavaram beach)</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div>--%>
                                                         </div>
                                                     </div>
-                                </div>
-                            </div>
+                                
                         </div>
                     </div>
+                    </div>
+                </div>
+             </div>
             </div>
-        </div>
-     </div>
-    </div>
-   </div>
-     <br />
+           </div>
+         </div>
+        </div><br />
 </asp:Content>
