@@ -23,6 +23,7 @@
     <script src="js/jquery/jquery.widget.min.js"></script>
     <script src="js/jquery/jquery.mousewheel.js"></script>
     <script src="js/prettify/prettify.js"></script>
+    <script src="js/gplus-youtubeembed.js"></script>
 
     <!-- Metro UI CSS JavaScript plugins -->
     <script src="js/load-metro.js"></script>
@@ -167,4 +168,5 @@
       <script src="js/hitua.js"></script>
    </form>
 </body>
+<script type="text/javascript">optimizeYouTubeEmbeds()</script>
 </html>

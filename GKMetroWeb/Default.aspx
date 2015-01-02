@@ -3,7 +3,7 @@
 <asp:Content ContentPlaceHolderID ="ContentPlaceHolder1" runat ="server">
     <div class="bg-white">
         <div class=" bg-blue">
-            <div style="background: url(images/tbd.jpg) top left no-repeat; background-size: cover; height: 200px; ">
+            <div style="background: url(images/banner.jpg) top left no-repeat; background-size: cover; height: 200px; ">
                 <div class="place- place-right">
                         <div class="input-control text size4 margin20 nrm">
                             <input type="text" name="q" placeholder="Search...">
@@ -217,7 +217,7 @@
 
         <div class="bg-lightGreen no-tablet-portrait no-phone ">
             <div class="container">
-                    <h2 class="fg-black "><b><i>Find answers by browsing my website</i></b></h2>
+                    <h2 class="fg-black "><b><i>Find answers by browsing through my website</i></b></h2>
                 </div>
             <div class="container padding20 fg-white">
                 <div class="carousel bg-transparent no-overflow" id="carousel2">
@@ -244,7 +244,7 @@
                             <img src="/images/Banners/pi.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Unbelivable facts about Pi</h2>
+                        <h2 class="fg-white ntm">Unbelievable facts about Pi</h2>
                     </div>
 
                      <div class="slide">
@@ -276,7 +276,7 @@
                             <img src="/images/Banners/cerebellum.jpg"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Which part of brain controls hearat beat?</h2>
+                        <h2 class="fg-white ntm">Which part of brain controls heart beat?</h2>
                     </div>
 
                      <div class="slide">
@@ -284,7 +284,7 @@
                             <img src="/images/Banners/earthdia.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Is there any difference in ploar and eqator diameters of earth?</h2>
+                        <h2 class="fg-white ntm">Is there any difference in polar and equator diameters of earth?</h2>
                     </div>
 
                      <div class="slide">
