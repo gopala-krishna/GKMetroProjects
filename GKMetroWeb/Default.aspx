@@ -3,7 +3,7 @@
 <asp:Content ContentPlaceHolderID ="ContentPlaceHolder1" runat ="server">
     <div class="bg-white">
         <div class=" bg-blue">
-            <div style="background: url(images/banner.jpg) top left no-repeat; background-size: cover; height: 200px; ">
+            <div style="background: url(images/tbd.jpg) top left no-repeat; background-size: cover; height: 200px; ">
                 <div class="place- place-right">
                         <div class="input-control text size4 margin20 nrm">
                             <input type="text" name="q" placeholder="Search...">
@@ -199,7 +199,7 @@
                                             <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.microsoft.com/en-us/openness/default.aspx#home "><img src="images/msopenness.png" /></a>
                                             <a class="button bg-black fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://sourceforge.net/ "><img src="images/sourceforge.png" /></a>
                                             <a class="button bg-brown fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" https://hbr.org/"><img src="images/hbr.png" /></a>
-                                            <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" "><h2></h2></a>
+                                            <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.storyofmathematics.com/"><img src="images/themathshistory.png" /></a>
                                         </div>
                                         <div class="span3 padding10 text-center">
                                             <a class="button bg-green fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://oeis.org/"><img src="images/oeis.png" /></a>
@@ -215,7 +215,7 @@
             </div>
         </div>
 
-        <div class="bg-lightGreen no-tablet-portrait no-phone ">
+        <div class="bg-blue no-tablet-portrait no-phone ">
             <div class="container">
                     <h2 class="fg-black "><b><i>Find answers by browsing through my website</i></b></h2>
                 </div>
