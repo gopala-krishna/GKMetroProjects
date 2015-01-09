@@ -144,7 +144,7 @@
 
                                             more than what i wanted.Though i stumbled at times
 
-                                            my bouncing back attitude always fetched me big
+                                            my bouncing back attitude and my questioning attitdue always fetched me big
 
                                             rewards. Presently i work for <a href="http://www.microsoft.com/"><font color="blue">Microsoft</font></a> in Hyderabad.
 
@@ -199,7 +199,7 @@
                                             <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.microsoft.com/en-us/openness/default.aspx#home "><img src="images/msopenness.png" /></a>
                                             <a class="button bg-black fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://sourceforge.net/ "><img src="images/sourceforge.png" /></a>
                                             <a class="button bg-brown fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" https://hbr.org/"><img src="images/hbr.png" /></a>
-                                            <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.storyofmathematics.com/"><img src="images/themathshistory.png" /></a>
+                                            <a class="button bg-pink fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://www.storyofmathematics.com/"><img src="images/themathsstory.png" /></a>
                                         </div>
                                         <div class="span3 padding10 text-center">
                                             <a class="button bg-green fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://oeis.org/"><img src="images/oeis.png" /></a>
