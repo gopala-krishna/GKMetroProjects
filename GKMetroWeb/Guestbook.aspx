@@ -35,7 +35,7 @@
 
  <title> Gopala Krishna's Website</title>
 </head>
-    <body class ="metro">
+    <body class ="metro"background ="images/Guestbookback.jpg" >
 
            <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -47,7 +47,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
    <header class ="" data-load ="Header.aspx"></header>
-              <div class ="bg-white">
+              
                 <div class="container">
                 <div class="row">
                             <div class="tile-content">
@@ -86,7 +86,7 @@
                           </div>
                     </div>
             </div>
-    </div>
+    
               <br />
         </body>
     </html>
