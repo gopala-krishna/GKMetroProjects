@@ -2,6 +2,11 @@
 
 <html>
     <head runat="server">
+        <style type="text/css">
+        .auto-style1 {
+            width: 200px;
+        }
+    </style>
     <link rel ="SHORTCUT ICON" href="/images/MyPhotos/1.jpg" />
        
      <meta charset="utf-8"/>
@@ -36,6 +41,7 @@
  <title> Gopala Krishna's Website</title>
 </head>
     <body class ="metro"background ="images/Guestbookback.jpg" >
+         <form id="form1" runat="server">
 
            <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -52,7 +58,6 @@
                 <div class="row">
                             <div class="tile-content">
                                 <div class="panel no-border">
-                                    <div class="panel-header span12 bg-blue fg-white text-center">My GuestBook</div>
 
                                          <div class="container">
 
@@ -61,9 +66,68 @@
                                                          
                                                             <div class="accordion with-marker span12 padding place-center" data-role="accordion" data-closeany="false">
 
-                                                            <div class="accordion-frame">
+                                                            <div class="accordion-frame active">
                                                                 <a class="heading text-center text-bold  bg-orange  fg-white">Comment with E-Mail</a>
-                                                                <div class="content" >
+                                                                <div class="content text-center" >
+
+                                                                    <table style="width: 100%; height: 41px; background-color:transparent">
+                                                                        <tr>
+                                                                            <td class="auto-style1">&nbsp;</td>
+                                                                            <td class="auto-style2" align = right>
+                                                                                <asp:Label ID="lblName" runat="server" Text="Name :" ViewStateMode="Enabled"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:TextBox ID="txtName" runat="server" Width="270px"></asp:TextBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="auto-style1">&nbsp;</td>
+                                                                            <td class="auto-style2" align ="right">
+                                                                                <asp:Label ID="lblMail" runat="server" Text="E-Mail :"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:TextBox ID="txtMail" runat="server" Width="270px"></asp:TextBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="auto-style1">&nbsp;</td>
+                                                                            <td class="auto-style2" align ="right">
+                                                                                <asp:Label ID="lblPhone" runat="server" Text="Phone :"></asp:Label>
+                                                                            </td>
+                                                                            <td>
+                                                                                <asp:TextBox ID="txtPhone" runat="server" Width="270px"></asp:TextBox>
+                                                                            </td>
+                                                                        </tr>
+                                                                         <tr>
+                                                                            <td class="auto-style1">&nbsp;</td>
+                                                                            <td class="auto-style2" align ="right">
+                                                                                <asp:Label ID="lblComment" runat="server" Text="Comment :"></asp:Label>
+                                                                             </td>
+                                                                            <td>
+                                                                                <asp:TextBox ID="txtComment" runat="server" Width="270px"></asp:TextBox>
+                                                                             </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="auto-style1">&nbsp;</td>
+                                                                            <td class="auto-style2" align ="center">&nbsp;</td>
+                                                                            <td><br />
+                                                                                <asp:Button ID="btnSubmit" runat="server" Text="Submit"  OnClick="btnSubmit_Click" Width="160px" BackColor ="MintCream" BorderColor="Black" Font-Bold="true"/>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+
+
+                                                                   <asp:DataList ID="MyGuestbook" Runat="server" Width="100%" style="margin-top: 17px" BackColor="Transparent">
+                                                                        <ItemTemplate>
+                                                                        <hr size=0/>
+                                                                        Name: <%# DataBinder.Eval(Container.DataItem, "name") %><br />
+                                                                        E-mail: <a href="mailto:<%# DataBinder.Eval(Container.DataItem, "email") %>"><%# DataBinder.Eval(Container.DataItem, "email") %></a><br />
+                                                                        Phone: <%# DataBinder.Eval(Container.DataItem, "phone") %><br />
+                                                                        Comment: <%# DataBinder.Eval(Container.DataItem, "comment") %><br />
+                                                                        </ItemTemplate>
+                                                                    </asp:DataList>
+
+
                                                                 </div>
                                                             </div>
 
@@ -86,7 +150,7 @@
                           </div>
                     </div>
             </div>
-    
               <br />
+             </form>
         </body>
     </html>
