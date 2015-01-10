@@ -64,7 +64,6 @@
                                                             <div class="accordion-frame">
                                                                 <a class="heading text-center text-bold  bg-orange  fg-white">Comment with E-Mail</a>
                                                                 <div class="content" >
-                                                                    <%--<iframe width="640" height="480"src="//www.youtube.com/embed/dTUU9JKtQYU"></iframe>--%>
                                                                 </div>
                                                             </div>
 
