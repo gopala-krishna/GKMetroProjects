@@ -37,14 +37,14 @@
 </head>
     <body class ="metro">
 
-            <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=386874354670915&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+           <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=386874354670915&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
    <header class ="" data-load ="Header.aspx"></header>
               <div class ="bg-white">
@@ -71,7 +71,7 @@
                                                             <div class="accordion-frame" >
                                                                 <a class="heading text-center text-bold bg-blue">Comment with Facebook</a>
                                                                 <div class="content " >
-                                                                  <div class="fb-comments text-center" data-href="http://geekgopalakrishna.com/Guestbook.aspx" data-numposts="10" data-colorscheme="dark"></div>
+                                                               <div class="fb-comments" data-href="http://geekgopalakrishna.com/" data-width="900" data-numposts="10" data-colorscheme="dark"></div>
                                                                 </div>
                                                             </div>
 
