@@ -99,9 +99,7 @@
                                        <li>
                                         <a class="dropdown-toggle  fg-blue no-marker" href="#">GuestBook</a>
                                         <ul class="dropdown-menu fg-blue" data-show="hover">
-                                           <%-- <li><a href="#">Sublink 1</a></li>
-                                            <li><a href="#">Sublink 2</a></li>
-                                            <li><a href="#">Sublink 3</a></li>--%>
+                                            <li><a href="Guestbook.aspx ">Sign In GuestBook</a></li>
                                         </ul>
                                     </li>
                                 </ul>
