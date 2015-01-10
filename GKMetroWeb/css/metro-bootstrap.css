@@ -6204,6 +6204,8 @@ a {
   width: 100%;
   position: relative;
   color: #1d1d1d;
+    top: 0px;
+    left: 0px;
 }
 .metro .accordion > .accordion-frame > .heading [class*="icon-"] {
   margin-right: 10px;
