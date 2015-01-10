@@ -4,7 +4,7 @@
     <head runat="server">
         <style type="text/css">
         .auto-style1 {
-            width: 200px;
+            width: 150px;
         }
     </style>
     <link rel ="SHORTCUT ICON" href="/images/MyPhotos/1.jpg" />
