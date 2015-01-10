@@ -10,7 +10,7 @@
 
                                      <div class="panel-header bg-blue fg-white text-center">My Profession</div>
 
-                                            <div class="container">
+                                          <div class="container">
                                                     <div class="grid no-margin">
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
@@ -38,7 +38,7 @@
                                                     </div>
                                              </div>   
 
-                                         <div class="container">
+                                          <div class="container">
                                                         <div class="grid no-margin">
                                                             <div class="row">
                                                                 <div class="span4 no-tablet-portrait no-phone">
@@ -57,12 +57,13 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                </div>
 
-                                            <div class="container">
+                                           <div class="container">
                                                     <div class="grid no-margin">
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
-                                                                <div class="notice marker-on-right bg-magenta padding10 text-center" style="height: 70px">
+                                                                <div class="notice marker-on-right bg-magenta padding0 text-center" style="height: 70px">
                                                                     <p class="subheader-secondary fg-white"> My Resume</p>
                                                                 </div>
                                                             </div>
@@ -77,7 +78,7 @@
                                              </div>  
 
 
-                                </div>
+                             
                             </div>
                          </div>
                     </div>

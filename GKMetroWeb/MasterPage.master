@@ -18,6 +18,7 @@
     <link href="css/docs.css" rel="stylesheet"/>
     <link href="js/prettify/prettify.css" rel="stylesheet"/>
 
+
     <!-- Load JavaScript Libraries -->
     <script src="js/jquery/jquery.min.js"></script>
     <script src="js/jquery/jquery.widget.min.js"></script>
@@ -77,8 +78,7 @@
              <li>
                 <a href="#" class="dropdown-toggle">GuestBook</a>
                 <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover"">
-                    <li><a href="SignInGuestBook.aspx ">Sign In GuestBook</a></li>
-                    <li><a href=" ">View GuestBook</a></li>
+                    <li><a href="Guestbook.aspx ">Sign In GuestBook</a></li>
                 </ul>
             </li>
             
