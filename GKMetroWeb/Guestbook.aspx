@@ -117,13 +117,13 @@
                                                                     </table>
 
 
-                                                                   <asp:DataList ID="MyGuestbook" Runat="server" Width="100%" style="margin-top: 17px" BackColor="Transparent">
+                                                                   <asp:DataList ID="MyGuestbook" Runat="server" Width="100%" style="margin-top: 10px" BackColor="Transparent">
                                                                         <ItemTemplate>
                                                                         <hr size=0/>
-                                                                        Name: <%# DataBinder.Eval(Container.DataItem, "name") %><br />
-                                                                        E-mail: <a href="mailto:<%# DataBinder.Eval(Container.DataItem, "email") %>"><%# DataBinder.Eval(Container.DataItem, "email") %></a><br />
-                                                                        Phone: <%# DataBinder.Eval(Container.DataItem, "phone") %><br />
-                                                                        Comment: <%# DataBinder.Eval(Container.DataItem, "comment") %><br />
+                                                                        <b>Name: </b><%# DataBinder.Eval(Container.DataItem, "name") %><br />
+                                                                         <b>E-mail: </b><a href="mailto:<%# DataBinder.Eval(Container.DataItem, "email") %>"><%# DataBinder.Eval(Container.DataItem, "email") %></a><br />
+                                                                         <b>Phone:</b> <%# DataBinder.Eval(Container.DataItem, "phone") %><br />
+                                                                         <b>Comment:</b> <%# DataBinder.Eval(Container.DataItem, "comment") %><br />
                                                                         </ItemTemplate>
                                                                     </asp:DataList>
 
