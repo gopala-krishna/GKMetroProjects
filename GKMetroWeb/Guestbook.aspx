@@ -66,6 +66,13 @@
                                                          
                                                             <div class="accordion with-marker span12 padding place-center" data-role="accordion" data-closeany="false">
 
+                                                            <div class="accordion-frame active " >
+                                                                <a class="heading text-center text-bold bg-red fg-white">Comment with Facebook</a>
+                                                                <div class="content " >
+                                                               <div class="fb-comments" data-href="http://geekgopalakrishna.com/" data-width="915" data-numposts="10" data-colorscheme=""></div>
+                                                                </div>
+                                                            </div>
+
                                                             <div class="accordion-frame active">
                                                                 <a class="heading text-center text-bold  bg-orange  fg-white">Comment with E-Mail</a>
                                                                 <div class="content text-center" >
@@ -131,12 +138,7 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="accordion-frame active " >
-                                                                <a class="heading text-center text-bold bg-blue fg-white">Comment with Facebook</a>
-                                                                <div class="content " >
-                                                               <div class="fb-comments" data-href="http://geekgopalakrishna.com/" data-width="915" data-numposts="10" data-colorscheme=""></div>
-                                                                </div>
-                                                            </div>
+                                                          
 
                                                         </div>
                                 
