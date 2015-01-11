@@ -74,7 +74,7 @@
                                                                         <tr>
                                                                             <td class="auto-style1">&nbsp;</td>
                                                                             <td class="auto-style2" align = right>
-                                                                                <asp:Label ID="lblName" runat="server" Text="Name :" ViewStateMode="Enabled"></asp:Label>
+                                                                                <asp:Label ID="lblName" runat="server" Text="Name :"></asp:Label>
                                                                             </td>
                                                                             <td>
                                                                                 <asp:TextBox ID="txtName" runat="server" Width="270px"></asp:TextBox>
