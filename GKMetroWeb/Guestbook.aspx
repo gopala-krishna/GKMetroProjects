@@ -104,7 +104,7 @@
                                                                                 <asp:Label ID="lblComment" runat="server" Text="Comment :"></asp:Label>
                                                                              </td>
                                                                             <td>
-                                                                                <asp:TextBox ID="txtComment" runat="server" Width="270px"></asp:TextBox>
+                                                                                <asp:TextBox ID="txtComment" runat="server" Width="270px" Height ="100px" TextMode="MultiLine"></asp:TextBox>
                                                                              </td>
                                                                         </tr>
                                                                         <tr>
