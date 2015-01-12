@@ -81,6 +81,61 @@
                                                     </div>
                                                 </div>
 
+                                                 <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue">Whick bird can fly backwards or upside down?</a>
+                                                    <div class="content" >
+                                                        <p>Humming bird. It's also the smallest bird on the earth. Can't believe it ? Check  it out at : <a href="http://en.wikipedia.org/wiki/Hummingbird">Smallest Bird</a></p>
+                                                    </div>
+                                                </div>
+
+                                                 <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue">Name the bird which can't fly?</a>
+                                                    <div class="content" >
+                                                        <p>Ostrich. It's also the largest bird on the earth and the only bird that has two toes on each foot. Can't believe it ? Check  it out at : <a href="http://www.livescience.com/27433-ostriches.html">Largest Bird</a></p>
+                                                    </div>
+                                                </div>
+                                                 <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue">Does plants have life ? Do they have feelings ?</a>
+                                                    <div class="content" >
+                                                        <p>Yes. Plants have life.Plants can "feel pain, understand affection etc -- Jagadish Chandra Bose.Can't believe it ? Check  it out at : <a href="http://en.wikipedia.org/wiki/Jagadish_Chandra_Bose">Crying Plants</a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue"> What happens if we can travel beyond speed of light ?</a>
+                                                    <div class="content" >
+                                                        <p>We can see our Future. Hurry! Go and get a Time Machine :) Can't believe it ? Check  it out at : <a href="http://en.wikipedia.org/wiki/Faster-than-light">Superluminal</a></p>
+                                                    </div>
+                                                </div>
+
+                                                  <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue"> What happens if we drill a hole through the Earth and then drop a stone into it ?</a>
+                                                    <div class="content" >
+                                                        <p>The object would be oscillating back and forth very rapidly.  Can't believe it ? Check  it out at : <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/mechanics/earthole.html">Drilling Earth</a></p>
+                                                    </div>
+                                                </div>
+
+                                                 <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue"> If we drop a 100kg stone and 1kg stone simeltaneously from the top of a tall building which one will land first ?</a>
+                                                    <div class="content" >
+                                                        <p>Both will land at the same time.  Can't believe it ? Check  it out at : <a href="http://en.wikipedia.org/wiki/Galileo's_Leaning_Tower_of_Pisa_experiment">Galileo's Experiment</a></p>
+                                                    </div>
+                                                </div>
+
+                                                  <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue">Can new born babies see colors ( like red, blue etc.) ?</a>
+                                                    <div class="content" >
+                                                        <p>No. Only black and white.After several weeks they can see first primary color - Red.  Can't believe it ? Check  it out at : <a href="http://www.bausch.com/vision-and-age/infant-eyes/eye-development#.VLPyP4scTs0">Newborn color blindness</a></p>
+                                                    </div>
+                                                </div>
+
+                                                    <div class="accordion-frame active" >
+                                                    <a class="heading bg-blue">Do people actually get shorter in the nights ?</a>
+                                                    <div class="content" >
+                                                        <p>Yes. Usually by 15mm-1cm.  Can't believe it ? Check  it out at : <a href="http://orthopedics.about.com/b/2005/05/31/do-people-actually-get-shorter-late-in-the-day.htm">Volatile Height</a></p>
+                                                    </div>
+                                                </div>
+
+
                                                  <div class="accordion-frame active " >
                                                         <a class="heading text-center text-bold bg-red fg-white">Comment on Facebook about this page</a>
                                                         <div class="content " >
