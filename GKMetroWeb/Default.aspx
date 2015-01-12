@@ -49,11 +49,20 @@
                                 </li><br /><br /><br />
 
                                      <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Interesting Stuff</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
-                                           <%-- <li><a href="#">Sublink 1</a></li>
-                                            <li><a href="#">Sublink 2</a></li>
-                                            <li><a href="#">Sublink 3</a></li>--%>
+                                        <a class="dropdown-toggle fg-blue no-marker" href ="#">Interesting Stuff</a>
+                                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                            <li>
+                                                <a href="#" class="dropdown-toggle fg-blue">Interesting Facts</a>
+                                                <ul class="dropdown-menu dark fg-blue" data-role="dropdown" data-show="hover">
+                                                    <li><a href="../../../UIInterestingStuff/InterstingFacts/InterestingScienceFacts.aspx">Interesting Science Facts</a></li>
+                                                </ul>
+                                            </li>
+                                             <li>
+                                                <a href="#" class="dropdown-toggle fg-blue">Interesting Optical Illusions</a>
+                                                <ul class="dropdown-menu dark fg-blue" data-role="dropdown" data-show="hover">
+                                                    <li><a href="../../../UIInterestingStuff/InterestingOpticalIllusions/InterestingOpticalIllusions.aspx">Can We Believe Our Eyes?</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li><br /><br /><br />
                                         <li>
@@ -152,7 +161,7 @@
                                          </ul>
                          </li>
                         </ul>--%>
-                 </li>
+                     </li>
 
                       <li>
                         <a href="#" class="dropdown-toggle fg-blue">Databases</a>

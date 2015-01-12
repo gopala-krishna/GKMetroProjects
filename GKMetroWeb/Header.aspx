@@ -28,8 +28,23 @@
                 </ul>
             </li>
              <li>
-                <a href="#" class="dropdown-toggle">InterestingStuff</a>
+                <a class="dropdown-toggle" href ="#">Interesting Stuff</a>
+                <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                    <li>
+                        <a href="#" class="dropdown-toggle">Interesting Facts</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li><a href="../../../UIInterestingStuff/InterstingFacts/InterestingScienceFacts.aspx">Interesting Science Facts</a></li>
+                        </ul>
+                    </li>
+                     <li>
+                        <a href="#" class="dropdown-toggle">Interesting Optical Illusions</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li><a href="../../../UIInterestingStuff/InterestingOpticalIllusions/InterestingOpticalIllusions.aspx">Can We Believe Our Eyes?</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
+
              <li>
                 <a href="#" class="dropdown-toggle">Math Fun</a>
             </li>
