@@ -28,20 +28,25 @@
                                         <a class="dropdown-toggle fg-white no-marker"></a>
                                     </li>
 
-                                     <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href ="#">My Personal</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover" >
-                                            <li>
-                                                <a href="#" class="dropdown-toggle fg-blue">About Me</a>
-                                                <ul class="dropdown-menu fg-blue" data-show="hover" data-role="dropdown">
-                                                    <li><a href="MyInterests.aspx">My Interests</a></li>
-                                                    <li><a href="MyProfession.aspx">My Profession</a></li>
-                                                    <li><a href="">My Family</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="MyPhotos.aspx">My Photos</a></li>
-                                        </ul>
-                                    </li><br /><br /><br />
+                                   <li>
+                                    <a class="dropdown-toggle fg-blue no-marker" href ="#">My Personal</a>
+                                    <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                        <li>
+                                            <a href="#" class="dropdown-toggle fg-blue">About Me</a>
+                                            <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                                <li><a href="../../../UIMyPersonal/AboutMe/MyInterests.aspx">My Interests</a></li>
+                                                <li><a href="../../../UIMyPersonal/AboutMe/MyProfession.aspx">My Profession</a></li>
+                                                <li><a href="">My Family</a></li>
+                                            </ul>
+                                        </li>
+                                         <li>
+                                            <a href="#" class="dropdown-toggle fg-blue">Photos</a>
+                                            <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                                <li><a href="../../../UIMyPersonal/Photos/MyPhotos.aspx">My Photos</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li><br /><br /><br />
 
                                      <li>
                                         <a class="dropdown-toggle  fg-blue no-marker" href="#">Interesting Stuff</a>
@@ -69,14 +74,132 @@
                                         </ul>
                                     </li><br /><br /><br />
 
-                                        <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Technology</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
-                                           <%-- <li><a href="#">Sublink 1</a></li>
-                                            <li><a href="#">Sublink 2</a></li>
-                                            <li><a href="#">Sublink 3</a></li>--%>
-                                        </ul>
-                                    </li><br /><br /><br />
+                                          
+             <li>
+                <a class="dropdown-toggle fg-blue no-marker"  href="#">Technology</a>
+
+                <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                   
+                     <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Open Source</a>
+                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="#" class="dropdown-toggle fg-blue">Linux</a>
+                                         <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                          <%--  <li>
+                                  <a href="#" class="dropdown-toggle">Android</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Apple</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Communities</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>--%>
+                        </ul>
+                 </li>
+
+                  <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Microsoft</a>
+                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                          <%--  <li>
+                                  <a href="#" class="dropdown-toggle">DotNet</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                         </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Windows</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Communities</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>--%>
+                        </ul>
+                 </li>
+
+                      <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Hacking</a>
+                      <%--  <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="#" class="dropdown-toggle">Linux</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                         </li>
+                        </ul>--%>
+                 </li>
+
+                      <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Databases</a>
+                       <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="#" class="dropdown-toggle">Linux</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                         </li>
+                        </ul>--%>
+                 </li>
+
+                    <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Tools</a>
+                        <%--<ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="#" class="dropdown-toggle">Linux</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                         </li>
+                        </ul>--%>
+                 </li>
+
+                  <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Blogs</a>
+                       <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="#" class="dropdown-toggle">Linux</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                         </li>
+                        </ul>--%>
+                 </li>
+
+
+               </ul>
+
+             </li>
+                 
+                                    
+                                    <br /><br /><br />
 
                                     
 
@@ -99,9 +222,9 @@
                                     </li><br /><br /><br />
 
                                        <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">GuestBook</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
-                                            <li><a href="Guestbook.aspx ">Sign In GuestBook</a></li>
+                                        <a href="#" class="dropdown-toggle fg-blue no-marker">GuestBook</a>
+                                        <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover"">
+                                            <li><a href="../../../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                                         </ul>
                                     </li>
                                 </ul>
