@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="MyPhotos.aspx.cs" Inherits="MyPhotos" %>
-
 <html>
     <head>
         <title>Gopala Krishna's Image Gallery</title>
@@ -7,8 +6,8 @@
         <meta name="description" content="Gopala Krishna's Image Gallery" />
         <meta name="keywords" content="Gopala Krishna, IIT Bombay, Microsoft,image gallery, jquery, full page, full screen, css3, auto scroll, scrollable, fancy, photography, portfolio"/>
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-         <link href="css/iconFont.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen"/>
+         <link href="../../css/iconFont.css" rel="stylesheet"/>
         <style>
 			span.reference{
 				font-family:Arial;
@@ -34,11 +33,10 @@
 				top:10px;
 				left:10px;
 				text-indent:-9000px;
-				/*background:transparent url(images/icons/title.png) no-repeat top left;*/
 				z-index:2;
 			}
 		</style>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
 		<script type="text/javascript">
 			$(window).load(function() {
@@ -95,8 +93,9 @@
 		</script>
     </head>
 
-    <body>
-		<h1 class="title">Gopala Krishna Photos</h1>
+
+     <body>
+		<h1 class="title">Gopala Krishna's Image Gallery </h1>
 		<div id="fp_gallery" class="fp_gallery">
 			<img src="images/1.jpg" alt="" class="fp_preview" style="display:none;"/>
 			<div class="fp_overlay"></div>
@@ -107,32 +106,29 @@
 				<div id="thumbScroller">
 					<div class="container">
 						<div class="content">
-
-					    <div><a href="#"><img src="images/MyPhotos/thumbs/1.jpg" alt="images/MyPhotos/1.jpg" class="thumb" /></a></div>
+							<div><a href="#"><img src="MyPhotos/thumbs/1.jpg" alt="MyPhotos/1.jpg" class="thumb" /></a></div>
 						</div>
 						<div class="content">
-							<div><a href="#"><img src="images/MyPhotos/thumbs/2.jpg" alt="images/MyPhotos/2.jpg" class="thumb" /></a></div>
-						</div>
-                        <div class="content">
-							<div><a href="#"><img src="images/MyPhotos/thumbs/3.jpg" alt="images/MyPhotos/3.jpg" class="thumb" /></a></div>
+							<div><a href="#"><img src="MyPhotos/thumbs/2.jpg" alt="MyPhotos/2.jpg" class="thumb" /></a></div>
 						</div>
 						<div class="content">
-							<div><a href="#"><img src="images/MyPhotos/thumbs/4.jpg" alt="images/MyPhotos/4.jpg" class="thumb" /></a></div>
+							<div><a href="#"><img src="MyPhotos/thumbs/3.jpg" alt="MyPhotos/3.jpg" class="thumb" /></a></div>
 						</div>
-						
-						
+						<div class="content">
+							<div><a href="#"><img src="MyPhotos/thumbs/4.jpg" alt="MyPhotos/4.jpg" class="thumb" /></a></div>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div id="fp_thumbtoggle" class="fp_thumbtoggle">View Thumbs</div>
 		</div>
-        
         <div>
+                
             <span class="reference">
-				  <a class="icon-home on-right " href ="Default.aspx" style="background: red;color: white; padding: 10px; border-radius: 100%"></a>
+				  <a class="icon-home on-right " href ="../../Default.aspx" style="background: red;color: white; padding: 10px; border-radius: 100%"></a>
             </span>
+		
 		</div>
-                        
 
         <!-- The JavaScript -->
 
@@ -158,7 +154,7 @@
 						++cnt_thumbs;
 						if(cnt_thumbs == nmb_thumbs)
 				//display the thumbs on the bottom of the page
-				showThumbs(2000);
+				showThumbs(1000);
 					}).attr('src',$thumb.find('img').attr('src'));
 				}
 				

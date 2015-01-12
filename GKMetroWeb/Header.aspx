@@ -19,7 +19,12 @@
                             <li><a href="">My Family</a></li>
                         </ul>
                     </li>
-                    <li><a href="MyPhotos.aspx">My Photos</a></li>
+                  <li>
+                        <a href="#" class="dropdown-toggle">Photos</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                            <li><a href="../../UIMyPersonal/Photos/MyPhotos.aspx">My Photos</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
              <li>
