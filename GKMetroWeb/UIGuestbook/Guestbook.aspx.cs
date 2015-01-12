@@ -20,7 +20,7 @@ public partial class Guestbook : System.Web.UI.Page
     {
         // Open the XML doc
         System.Xml.XmlDocument myXmlDocument = new System.Xml.XmlDocument();
-        myXmlDocument.Load(Server.MapPath("data/guestbook.xml"));
+        myXmlDocument.Load(Server.MapPath("../App_Data/guestbook.xml"));
         System.Xml.XmlNode myXmlNode = myXmlDocument.DocumentElement.FirstChild;
 
         // Create new XML element and populate its attributes
@@ -32,7 +32,7 @@ public partial class Guestbook : System.Web.UI.Page
 
         // Insert data into the XML doc and save
         myXmlDocument.DocumentElement.InsertBefore(myXmlElement, myXmlNode);
-        myXmlDocument.Save(Server.MapPath("data/guestbook.xml"));
+        myXmlDocument.Save(Server.MapPath("../App_Data/guestbook.xml"));
 
         // Re-bind data since the doc has been added to
         BindData();
@@ -41,7 +41,7 @@ public partial class Guestbook : System.Web.UI.Page
 
     void BindData()
     {
-        XmlTextReader myXmlReader = new XmlTextReader(Server.MapPath("data/guestbook.xml"));
+        XmlTextReader myXmlReader = new XmlTextReader(Server.MapPath("../App_Data/guestbook.xml"));
         DataSet myDataSet = new DataSet();
         myDataSet.ReadXml(myXmlReader);
         myXmlReader.Close();

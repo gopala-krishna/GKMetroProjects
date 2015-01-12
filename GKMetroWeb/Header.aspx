@@ -43,7 +43,7 @@
              <li>
                 <a href="#" class="dropdown-toggle">GuestBook</a>
                 <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover"">
-                    <li><a href="Guestbook.aspx ">Sign In GuestBook</a></li>
+                      <li><a href="../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                 </ul>
             </li>
             

@@ -16,29 +16,26 @@
     <meta name="author" content="Gopala Krishna"/>
     <meta name="keywords" content="js, css, metro, framework, windows 8, metro ui, IIT Bombay, Microsoft"/>
 
-    <link href="css/metro-bootstrap.css" rel="stylesheet"/>
-    <link href="css/metro-bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="css/iconFont.css" rel="stylesheet"/>
-    <link href="css/docs.css" rel="stylesheet"/>
-    <link href="js/prettify/prettify.css" rel="stylesheet"/>
+    <link href="../css/metro-bootstrap.css" rel="stylesheet"/>
+    <link href="../css/metro-bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="../css/iconFont.css" rel="stylesheet"/>
+    <link href="../css/docs.css" rel="stylesheet"/>
 
 
     <!-- Load JavaScript Libraries -->
-    <script src="js/jquery/jquery.min.js"></script>
-    <script src="js/jquery/jquery.widget.min.js"></script>
-    <script src="js/jquery/jquery.mousewheel.js"></script>
-    <script src="js/prettify/prettify.js"></script>
-    <script src="js/gplus-youtubeembed.js"></script>
+    <script src="<%= ResolveUrl("~/js/jquery/jquery.min.js")%>"></script>
+    <script src="<%= ResolveUrl("~/js/jquery/jquery.widget.min.js")%>"></script>
+    <script src="<%= ResolveUrl("~/js/jquery/jquery.mousewheel.js")%>"></script>
+
 
     <!-- Metro UI CSS JavaScript plugins -->
-    <script src="js/load-metro.js"></script>
+    <script src="<%= ResolveUrl("~/js/load-metro.js")%>"></script>
     
 
     <!-- Local JavaScript -->
-    <script src="js/docs.js"></script>
-    <script src="js/github.info.js"></script>
+    <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
 
- <title> Gopala Krishna's Website</title>
+  <title> Gopala Krishna's Website</title>
 </head>
     <body class ="metro"background ="images/Guestbookback.jpg" >
          <form id="form1" runat="server">
@@ -52,7 +49,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-   <header class ="" data-load ="Header.aspx"></header>
+   <header class ="" data-load ="../Header.aspx"></header>
               
                 <div class="container">
                 <div class="row">
