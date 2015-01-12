@@ -14,8 +14,8 @@
                     <li>
                         <a href="#" class="dropdown-toggle">About Me</a>
                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
-                            <li><a href="MyInterests.aspx">My Interests</a></li>
-                            <li><a href="MyProfession.aspx">My Profession</a></li>
+                            <li><a href="../../UIMyPersonal/AboutMe/MyInterests.aspx">My Interests</a></li>
+                            <li><a href="../../UIMyPersonal/AboutMe/MyProfession.aspx">My Profession</a></li>
                             <li><a href="">My Family</a></li>
                         </ul>
                     </li>
@@ -43,7 +43,7 @@
              <li>
                 <a href="#" class="dropdown-toggle">GuestBook</a>
                 <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover"">
-                      <li><a href="../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
+                      <li><a href="../../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                 </ul>
             </li>
             

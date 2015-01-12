@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/MasterPage.master" CodeFile="MyInterests.aspx.cs" Inherits="MyInterests" %>
 
 <asp:Content ContentPlaceHolderID ="ContentPlaceHolder1" runat ="server">
+      <script src="<%= ResolveUrl("~/js/gplus-youtubeembed.js")%>"></script>
        <div class ="bg-white">
           <div class="container">
                 <div class="row">
@@ -324,4 +325,5 @@
                     </div>
                 </div>
     <br />
+      <script type="text/javascript">optimizeYouTubeEmbeds()</script>
 </asp:Content>
