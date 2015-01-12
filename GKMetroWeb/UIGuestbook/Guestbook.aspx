@@ -37,7 +37,7 @@
 
   <title> Gopala Krishna's Website</title>
 </head>
-    <body class ="metro"background ="images/Guestbookback.jpg" >
+    <body class ="metro"background ="../../images/Guestbookback.jpg" >
          <form id="form1" runat="server">
 
            <div id="fb-root"></div>
