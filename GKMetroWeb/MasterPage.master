@@ -65,17 +65,18 @@
              <li>
                 <a href="#" class="dropdown-toggle">Math Fun</a>
             </li>
+              <li>
+                <a href="#" class="dropdown-toggle">Music</a>
+            </li>
             <li>
                 <a class="dropdown-toggle"  href="#">Technology</a>
             </li>
-            <li>
-                <a href="#" class="dropdown-toggle">Music</a>
-            </li>
+          
             <li>
                 <a class="dropdown-toggle"  href="#">Product Management</a>
             </li>
              <li>
-                <a href="#" class="dropdown-toggle">Photography</a>
+                <a href="#" class="dropdown-toggle">Entrepreneurship</a>
             </li>
              <li>
                 <a href="#" class="dropdown-toggle">GuestBook</a>

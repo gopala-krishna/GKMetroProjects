@@ -61,7 +61,7 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Technology</a>
+                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Music</a>
                                         <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
@@ -70,13 +70,15 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Music</a>
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Technology</a>
                                         <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
                                         </ul>
                                     </li><br /><br /><br />
+
+                                    
 
                                         <li>
                                         <a class="dropdown-toggle  fg-blue no-marker" href="#">Product Management</a>
@@ -88,7 +90,7 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Photography</a>
+                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Entrepreneurship</a>
                                         <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
