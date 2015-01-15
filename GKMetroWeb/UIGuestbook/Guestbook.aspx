@@ -37,7 +37,7 @@
 
   <title> Gopala Krishna's Website</title>
 </head>
-    <body class ="metro"background ="../../images/Guestbookback.jpg" >
+    <body class ="metro"background ="../../images/" >
          <form id="form1" runat="server">
 
            <div id="fb-root"></div>
@@ -50,13 +50,8 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
    <header class ="" data-load ="../Header.aspx"></header>
-              
-                <div class="container">
-                <div class="row">
-                            <div class="tile-content">
-                                <div class="panel no-border">
 
-                                         <div class="container">
+                                         <div class="container place-right">
 
                                               <div class="grid no-margin">
                                                         <div class="row">
@@ -64,14 +59,14 @@
                                                             <div class="accordion with-marker span12 padding place-center" data-role="accordion" data-closeany="false">
 
                                                             <div class="accordion-frame active " >
-                                                                <a class="heading text-center text-bold bg-red fg-white">Comment with Facebook</a>
+                                                                <a class="heading text-center text-bold bg-blue fg-white">Comment with Facebook</a>
                                                                 <div class="content " >
                                                                <div class="fb-comments" data-href="http://geekgopalakrishna.com/" data-width="915" data-numposts="10" data-colorscheme=""></div>
                                                                 </div>
                                                             </div>
 
                                                             <div class="accordion-frame active">
-                                                                <a class="heading text-center text-bold  bg-orange  fg-white">Comment with E-Mail</a>
+                                                                <a class="heading text-center text-bold  bg-blue  fg-white">Comment with E-Mail</a>
                                                                 <div class="content text-center" >
 
                                                                     <table style="width: 100%; height: 41px; background-color:transparent">
@@ -143,12 +138,6 @@
                                          </div>
 
                                       </div>
-
-
-                                 </div>
-                          </div>
-                    </div>
-            </div>
               <br />
              </form>
         </body>

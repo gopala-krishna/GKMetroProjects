@@ -190,7 +190,9 @@
                       <li><a href="../../../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                 </ul>
             </li>
-            
+            <li>
+              <a href ="../../../Search.aspx"><span class ="icon-search bg-dark fg-white" /></a>
+            </li>
         </ul>
         
         </div>
