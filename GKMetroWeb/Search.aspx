@@ -20,6 +20,7 @@
     <link href="../css/metro-bootstrap-responsive.css" rel="stylesheet"/>
     <link href="../css/iconFont.css" rel="stylesheet"/>
     <link href="../css/docs.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/search/styles.css" />
 
 
     <!-- Load JavaScript Libraries -->
@@ -34,50 +35,65 @@
 
     <!-- Local JavaScript -->
     <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
-
   <title> Search </title>
 </head>
-    <body class ="metro" background ="../../images/" >
-         <form id="form1" runat="server">
+    <body class ="metro">
         <header class ="" data-load ="../Header.aspx"></header>
-              
-            <%--    <div class="container">
-                <div class="row">
-                            <div class="tile-content">
-                                <div class="panel no-border">--%>
+     
+        <div id="page">
 
-                                         <div class="container place-right">
 
-                                              <div class="grid no-margin">
-                                                        <div class="row">
+         <form id="searchForm" method="post">
+                <fieldset>
+           	            <input id="s" type="text" />
+            
+                        <input type="submit" value="Submit" id="submitButton" />
+            
+                      <%--  <div id="searchInContainer">
+                              <input type="radio" name="check" value="site" id="searchSite"   />
+                            <label for="searchSite" id="siteNameLabel">Search</label>
+                            <input type="radio" name="check" value="web" id="searchWeb" checked/>
+                            <label for="searchWeb">Search The Web</label>
+                          
+			            </div>--%>
+            </fieldset>
+         </form>
+   </div>
+            
+          
+<div class="container ">
+    <div class="grid no-margin ">
+            <div class="row ">
                                                          
-                                                            <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
+                <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
 
-                                                            <div class="accordion-frame active " >
-                                                                <a class="heading text-center text-bold bg-blue fg-white">Google Search Results</a>
-                                                                <div class="content " >
-                                                                </div>
-                                                            </div>
+                <div class="accordion-frame active " >
+                    <a class="heading text-center text-bold bg-blue fg-white">Google Search Results</a>
+                                                               
+                            <div id="resultsDiv"></div>
+                                                               
+                </div>
 
-                                                            <div class="accordion-frame active">
-                                                                <a class="heading text-center text-bold  bg-blue  fg-white">Bing Search Results</a>
-                                                                <div class="content text-center" >
+                <div class="accordion-frame active">
+                    <a class="heading text-center text-bold  bg-blue  fg-white">Bing Search Results</a>
+                    <div class="content text-center" >
 
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                
-                                         </div>
-                                         </div>
-
-                                      </div>
-
-
-                               <%--  </div>
-                          </div>
                     </div>
-            </div>--%>
-              <br />
-             </form>
+                </div>
+                </div>
+            </div>
+                                
+</div>
+</div>
+
+                                      
+
+             <%-- </form>--%>
+
+      
+         <br />
+           
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/search/script.js"></script>
         </body>
 </html>
