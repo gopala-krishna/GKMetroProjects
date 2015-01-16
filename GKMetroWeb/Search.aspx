@@ -40,7 +40,7 @@
     <body class ="metro">
         <header class ="" data-load ="../Header.aspx"></header>
      
-        <div id="page">
+        <%--<div id="page">--%>
 
 
          <form id="searchForm" method="post">
@@ -54,12 +54,23 @@
             </span>
             </div>
 
-            </fieldset>
+            </fieldset
          </form>
-   </div>
+   <%--</div>--%>
             
           
 <div class="container ">
+</div>
+
+                                      
+
+             <%-- </form>--%>
+
+      
+         <br />
+           
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/search/script.js"></script>
     <div class="grid no-margin place-right">
             <div class="row ">
                                                          
@@ -82,16 +93,5 @@
             </div>
                                 
 </div>
-</div>
-
-                                      
-
-             <%-- </form>--%>
-
-      
-         <br />
-           
-        <script src="js/jquery/jquery.min.js"></script>
-        <script src="js/search/script.js"></script>
         </body>
 </html>
