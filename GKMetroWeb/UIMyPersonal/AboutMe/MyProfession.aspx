@@ -15,7 +15,7 @@
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
                                                                 <div class="notice marker-on-right bg-orange padding20 text-center" style="height: 100px">
-                                                                    <p class="subheader-secondary fg-white"><h2> My profile</h2></p>
+                                                                    <p class="subheader-secondary fg-white"><h2> My Profile</h2></p>
                                                                 </div>
                                                             </div>
                                                             <div class="span10">
@@ -64,12 +64,12 @@
                                                         <div class="row">
                                                             <div class="span4 no-tablet-portrait no-phone">
                                                                 <div class="notice marker-on-right bg-magenta padding0 text-center" style="height: 70px">
-                                                                    <p class="subheader-secondary fg-white"> My Resume</p>
+                                                                    <p class="subheader-secondary fg-black"> My Resume</p>
                                                                 </div>
                                                             </div>
                                                          
                                                               <div class ="span10">
-                                                             <a href="../../docs/Gopala_Profile_PM.doc" class="place-left button bg-red bg-hover-red fg-white fg-hover-white bd-orange" style="margin-top: 10px">
+                                                             <a href="../../docs/Gopala_Profile_PM.doc" class="place-left button bg-red bg-hover-red fg-black fg-hover-white bd-orange" style="margin-top: 10px">
                                                              <h6 style="margin: 5px 10px"> Download <span class="icon-download-2 on-right"></span></h6></a>
                                                              </div>
 
