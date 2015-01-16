@@ -4,8 +4,8 @@
 <html>
   <body>
    <div class="navigation-bar dark">
-        <div class="navigation-bar-content container">
-        <a href="/" class="element"><span class="icon-grid-view  fg-blue"></span> GopalaKrishna <sup>1.0</sup></a>
+        <div class="navigation-bar-content container text-shadow">
+        <a href="/" class="element "><span class="icon-grid-view  fg-blue"></span> GopalaKrishna <sup>1.0</sup></a>
         <span class="element-divider"></span>
         <ul class="element-menu">
             <li>

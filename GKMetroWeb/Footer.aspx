@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Footer.aspx.cs" Inherits="Footer" %>
 
 <html>
-<div class="bg-black">
+<div class="bg-black text-shadow">
             <div class="container" style="padding: 5px;">
                 <div class="grid no-margin">
                     <div class="row no-margin">

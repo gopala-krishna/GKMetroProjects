@@ -48,9 +48,9 @@
            	         <input id="s" type="text" />
                     <input type="submit" value="Submit" id="submitButton" />
             
-            <div id="searchInContainer fg-black">
-                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="auto-style1">Search Web</span>
-                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="auto-style1">Search Gopala-Krishna.com
+            <div id="searchInContainer fg-black text-shadow">
+                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="auto-style1 text-shadow">Search Web</span>
+                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="auto-style1 text-shadow">Search Gopala-Krishna.com
             </span>
             </div>
                   
@@ -69,7 +69,7 @@
       
          <br />
            
-        <script src="js/jquery/jquery.min.js"></script>
+      
         <script src="js/search/script.js"></script>
     <div class="grid no-margin place-right">
             <div class="row ">
@@ -77,7 +77,7 @@
                 <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
 
                 <div class="accordion-frame active " >
-                    <a class="heading text-center text-bold bg-grey fg-black"><h5>Google Search Results</h5></a>
+                    <a class="heading text-center text-bold bg-grey fg-black text-shadow"><h3>Google Search Results</h3></a>
                                                                
                             <div id="resultsDiv">
 
@@ -91,7 +91,7 @@
                 </div>
 
                 <div class="accordion-frame active">
-                    <a class="heading text-center text-bold  bg-grey  fg-black"><h5>Bing Search Results</h5></a>
+                    <a class="heading text-center text-bold  bg-grey  fg-black text-shadow"><h3>Bing Search Results</h3></a>
 
                 </div>
                 </div>

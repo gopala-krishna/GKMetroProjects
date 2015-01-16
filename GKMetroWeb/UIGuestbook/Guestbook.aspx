@@ -51,7 +51,7 @@
 
    <header class ="" data-load ="../Header.aspx"></header>
 
-                                         <div class="container place-right">
+                                         <div class="container place-right text-shadow">
 
                                               <div class="grid no-margin">
                                                         <div class="row">

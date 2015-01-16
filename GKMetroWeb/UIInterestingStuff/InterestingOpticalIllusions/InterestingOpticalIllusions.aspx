@@ -11,7 +11,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-        <div class ="bg-white">
+        <div class ="bg-white text-shadow">
           <div class="container">
                 <div class="row">
                         <div class="span16 padding20">

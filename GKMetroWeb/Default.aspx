@@ -5,7 +5,7 @@
         <div class=" bg-blue">
             <div style="background: url(images/tbd.jpg) top left no-repeat; background-size: cover; height: 200px; ">
              
-                <div class="container text-center" style="padding: 50px 10px">
+                <div class="container text-center text-shadow" style="padding: 50px 10px">
                     <h1 class="fg-white">Welcome to Gopala Krishna's Home </h1>
                 </div>
             </div>
@@ -24,19 +24,19 @@
                                     </li>
 
                                    <li>
-                                    <a class="dropdown-toggle fg-blue no-marker" href ="#">My Personal</a>
-                                    <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                    <a class="dropdown-toggle fg-blue no-marker text-shadow" href ="#">My Personal</a>
+                                    <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                         <li>
-                                            <a href="#" class="dropdown-toggle fg-blue">About Me</a>
-                                            <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                            <a href="#" class="dropdown-toggle fg-blue ">About Me</a>
+                                            <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                                 <li><a href="../../../UIMyPersonal/AboutMe/MyInterests.aspx">My Interests</a></li>
                                                 <li><a href="../../../UIMyPersonal/AboutMe/MyProfession.aspx">My Profession</a></li>
                                                 <li><a href="">My Family</a></li>
                                             </ul>
                                         </li>
                                          <li>
-                                            <a href="#" class="dropdown-toggle fg-blue">Photos</a>
-                                            <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                            <a href="#" class="dropdown-toggle fg-blue text-shadow">Photos</a>
+                                            <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                                 <li><a href="../../../UIMyPersonal/Photos/MyPhotos.aspx">My Photos</a></li>
                                             </ul>
                                         </li>
@@ -44,25 +44,25 @@
                                 </li><br /><br /><br />
 
                                      <li>
-                                        <a class="dropdown-toggle fg-blue no-marker" href ="#">Interesting Stuff</a>
-                                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href ="#">Interesting Stuff</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                             <li>
-                                                <a href="#" class="dropdown-toggle fg-blue">Interesting Facts</a>
-                                                <ul class="dropdown-menu dark fg-blue" data-role="dropdown" data-show="hover">
+                                                <a href="#" class="dropdown-toggle fg-blue text-shadow">Interesting Facts</a>
+                                                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                                     <li><a href="../../../UIInterestingStuff/InterstingFacts/InterestingScienceFacts.aspx">Interesting Science Facts</a></li>
                                                 </ul>
                                             </li>
                                              <li>
-                                                <a href="#" class="dropdown-toggle fg-blue">Interesting Optical Illusions</a>
-                                                <ul class="dropdown-menu dark fg-blue" data-role="dropdown" data-show="hover">
+                                                <a href="#" class="dropdown-toggle fg-blue text-shadow">Interesting Optical Illusions</a>
+                                                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                                     <li><a href="../../../UIInterestingStuff/InterestingOpticalIllusions/InterestingOpticalIllusions.aspx">Can We Believe Our Eyes?</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li><br /><br /><br />
                                         <li>
-                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Math Fun</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href="#">Math Fun</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -70,8 +70,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Music</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href="#">Music</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -80,9 +80,9 @@
 
                                           
              <li>
-                <a class="dropdown-toggle fg-blue no-marker"  href="#">Technology</a>
+                <a class="dropdown-toggle fg-blue no-marker text-shadow"  href="#">Technology</a>
 
-                <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                    
                      <li>
                         <a href="#" class="dropdown-toggle fg-blue">Open Source</a>
@@ -119,8 +119,8 @@
                  </li>
 
                   <li>
-                        <a href="#" class="dropdown-toggle fg-blue">Microsoft</a>
-                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Microsoft</a>
+                        <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                           <%--  <li>
                                   <a href="#" class="dropdown-toggle">DotNet</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -146,8 +146,8 @@
                  </li>
 
                       <li>
-                        <a href="#" class="dropdown-toggle fg-blue">Hacking</a>
-                      <%--  <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Hacking</a>
+                      <%--  <ul class="dropdown-menu dark text-shadow" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -159,8 +159,8 @@
                      </li>
 
                       <li>
-                        <a href="#" class="dropdown-toggle fg-blue">Databases</a>
-                       <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Databases</a>
+                       <%-- <ul class="dropdown-menu dark text-shadow" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -172,7 +172,7 @@
                  </li>
 
                     <li>
-                        <a href="#" class="dropdown-toggle fg-blue">Tools</a>
+                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Tools</a>
                         <%--<ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
@@ -185,7 +185,7 @@
                  </li>
 
                   <li>
-                        <a href="#" class="dropdown-toggle fg-blue">Blogs</a>
+                        <a href="#" class="dropdown-toggle fg-text-shadow ">Blogs</a>
                        <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
@@ -208,17 +208,17 @@
                                     
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Product Management</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker text-shadow" href="#">Product Management</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
-                                            <li><a href="#">Sublink 3</a></li>--%>
+                                            <li><a href="#">Sublink 3</a></li>--%> 
                                         </ul>
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker" href="#">Entrepreneurship</a>
-                                        <ul class="dropdown-menu fg-blue" data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker text-shadow" href="#">Entrepreneurship</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -226,8 +226,8 @@
                                     </li><br /><br /><br />
 
                                        <li>
-                                        <a href="#" class="dropdown-toggle fg-blue no-marker">GuestBook</a>
-                                        <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover"">
+                                        <a href="#" class="dropdown-toggle fg-blue no-marker text-shadow">GuestBook</a>
+                                        <ul class="dropdown-menu fg-blue text-shadow " data-role="dropdown" data-show="hover"">
                                             <li><a href="../../../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                                         </ul>
                                     </li>
@@ -239,8 +239,8 @@
                         <div class="span11">
                             <div class="tile-content">
                                 <div class="panel no-border">
-                                    <div class="panel-header bg-blue fg-white">Introduction</div>
-                                    <div class="panel-content text-justify">
+                                    <div class="panel-header bg-blue fg-white text-shadow">Introduction</div>
+                                    <div class="panel-content text-justify text-shadow">
                                         <img src="images/Gopala_iit.jpg" class="place-left margin10 nlm ntm size2">
                                         <p>Hi...</p>
 
@@ -315,7 +315,7 @@
                         <div class="span11" >
                             <div class="tile-content " >
                                 <div class="panel no-border text-justify">
-                                    <div class="panel-header bg-blue fg-white">My Frequent Hangouts</div>
+                                    <div class="panel-header bg-blue fg-white text-shadow">My Frequent Hangouts</div>
                                         <div class="span3 padding10 text-center " >
                                             <a class="button bg-red fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href=" http://sysinternals.com"><img src="images/wsys.png" /></a>
                                             <a class="button bg-green fg-white" style="width:inherit; height: 70px;margin-bottom: 10px" href="http://msdn.com "><img src="images/msdnlogo.png" /></a>
@@ -344,7 +344,7 @@
 
         <div class="bg-blue no-tablet-portrait no-phone ">
             <div class="container">
-                    <h2 class="fg-black "><b><i>Find answers by browsing through my website</i></b></h2>
+                    <h2 class="fg-black text-shadow "><b><i>Find answers by browsing through my website</i></b></h2>
                 </div>
             <div class="container padding20 fg-white">
                 <div class="carousel bg-transparent no-overflow" id="carousel2">
@@ -355,7 +355,7 @@
                             <img src="/images/Banners/csharp.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Can we instantiate an interface in C# ?</h2>
+                        <h2 class="fg-white text-shadow ntm">Can we instantiate an interface in C# ?</h2>
                     </div>
 
                      <div class="slide">
@@ -363,7 +363,7 @@
                             <img src="/images/Banners/opendotnet.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Is .NET purely open source ?</h2>
+                        <h2 class="fg-white text-shadow ntm">Is .NET purely open source ?</h2>
                     </div>
 
                      <div class="slide">
@@ -371,7 +371,7 @@
                             <img src="/images/Banners/pi.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Unbelievable facts about Pi</h2>
+                        <h2 class="fg-white text-shadow ntm">Unbelievable facts about Pi</h2>
                     </div>
 
                      <div class="slide">
@@ -379,7 +379,7 @@
                             <img src="/images/Banners/snakesears.jpg"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Does snakes have ears?</h2>
+                        <h2 class="fg-white text-shadow ntm">Does snakes have ears?</h2>
                     </div>
 
                      <div class="slide">
@@ -387,7 +387,7 @@
                             <img src="/images/Banners/plantsreproduction.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Can plants reproduce without flowers or seeds?</h2>
+                        <h2 class="fg-white text-shadow ntm">Can plants reproduce without flowers or seeds?</h2>
                     </div>
 
                      <div class="slide">
@@ -395,7 +395,7 @@
                             <img src="/images/Banners/finland.jpg"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Which country does not have night?</h2>
+                        <h2 class="fg-white   text-shadow ntm">Which country does not have night?</h2>
                     </div>
 
                      <div class="slide">
@@ -403,7 +403,7 @@
                             <img src="/images/Banners/cerebellum.jpg"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Which part of brain controls heart beat?</h2>
+                        <h2 class="fg-white text-shadow ntm">Which part of brain controls heart beat?</h2>
                     </div>
 
                      <div class="slide">
@@ -411,7 +411,7 @@
                             <img src="/images/Banners/earthdia.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Is there any difference in polar and equator diameters of earth?</h2>
+                        <h2 class="fg-white text-shadow ntm">Is there any difference in polar and equator diameters of earth?</h2>
                     </div>
 
                      <div class="slide">
@@ -419,7 +419,7 @@
                             <img src="/images/Banners/animalslivewithouto2.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Can animals live without oxygen?</h2>
+                        <h2 class="fg-white text-shadow ntm">Can animals live without oxygen?</h2>
                     </div>
 
                      <div class="slide">
@@ -427,7 +427,7 @@
                             <img src="/images/Banners/sneezing.jpg"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">Is it absolutely impossible to sneeze with your eyes open?</h2>
+                        <h2 class="fg-white text-shadow ntm">Is it absolutely impossible to sneeze with your eyes open?</h2>
                     </div>
 
                      <div class="slide">
@@ -435,7 +435,7 @@
                             <img src="/images/Banners/pig.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white ntm">which animal is lucky to have the longest orgasm?</h2>
+                        <h2 class="fg-white text-shadow ntm">which animal is lucky to have the longest orgasm?</h2>
                     </div>
 
 
