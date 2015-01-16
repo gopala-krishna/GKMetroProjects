@@ -3,7 +3,7 @@
 <html>
     <head runat="server">
     <link rel ="SHORTCUT ICON" href="/images/MyPhotos/1.jpg" />
-       
+    
      <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="product" content="Gopala Website"/>
@@ -53,7 +53,7 @@
                 <input type="radio" name="check" value="site" id="searchSite"  />  <span class="auto-style1">Search Gopala-Krishna.com
             </span>
             </div>
-
+                  
             </fieldset
          </form>
    <%--</div>--%>
@@ -77,21 +77,29 @@
                 <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
 
                 <div class="accordion-frame active " >
-                    <a class="heading text-center text-bold bg-lightgrey fg-black">Google Search Results</a>
+                    <a class="heading text-center text-bold bg-black fg-white">Google Search Results</a>
                                                                
-                            <div id="resultsDiv"></div>
+                            <div id="resultsDiv">
+
+   
+
+
+                            </div>
+
+
                                                                
                 </div>
 
                 <div class="accordion-frame active">
-                    <a class="heading text-center text-bold  bg-lightgrey  fg-black">Bing Search Results</a>
-                    <div class="content text-center" >
+                    <a class="heading text-center text-bold  bg-black  fg-white">Bing Search Results</a>
 
-                    </div>
                 </div>
                 </div>
             </div>
                                 
 </div>
+
+
+
         </body>
 </html>
