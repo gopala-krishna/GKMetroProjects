@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var config = {
-        siteURL: 'geekgopalakrishna.com',
+        siteURL: 'google.co.in:443/cse/publicurl?cx=009842496986683339516:1-q-rfhx91k',
         searchSite: true,
         type: 'web',
         append: false,
