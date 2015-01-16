@@ -2,11 +2,6 @@
 
 <html>
     <head runat="server">
-        <style type="text/css">
-        .auto-style1 {
-            width: 150px;
-        }
-    </style>
     <link rel ="SHORTCUT ICON" href="/images/MyPhotos/1.jpg" />
        
      <meta charset="utf-8"/>
@@ -36,6 +31,11 @@
     <!-- Local JavaScript -->
     <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
   <title> Search </title>
+        <style type="text/css">
+            .auto-style1 {
+                color: #000000;
+            }
+        </style>
 </head>
     <body class ="metro">
         <header class ="" data-load ="../Header.aspx"></header>
@@ -45,37 +45,35 @@
 
          <form id="searchForm" method="post">
                 <fieldset>
-           	            <input id="s" type="text" />
+           	         <input id="s" type="text" />
+                    <input type="submit" value="Submit" id="submitButton" />
             
-                        <input type="submit" value="Submit" id="submitButton" />
-            
-                      <%--  <div id="searchInContainer">
-                              <input type="radio" name="check" value="site" id="searchSite"   />
-                            <label for="searchSite" id="siteNameLabel">Search</label>
-                            <input type="radio" name="check" value="web" id="searchWeb" checked/>
-                            <label for="searchWeb">Search The Web</label>
-                          
-			            </div>--%>
+            <div id="searchInContainer fg-black">
+                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="auto-style1">Search Web</span>
+                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="auto-style1">Search Gopala-Krishna.com
+            </span>
+            </div>
+
             </fieldset>
          </form>
    </div>
             
           
 <div class="container ">
-    <div class="grid no-margin ">
+    <div class="grid no-margin place-right">
             <div class="row ">
                                                          
                 <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
 
                 <div class="accordion-frame active " >
-                    <a class="heading text-center text-bold bg-blue fg-white">Google Search Results</a>
+                    <a class="heading text-center text-bold bg-lightgrey fg-black">Google Search Results</a>
                                                                
                             <div id="resultsDiv"></div>
                                                                
                 </div>
 
                 <div class="accordion-frame active">
-                    <a class="heading text-center text-bold  bg-blue  fg-white">Bing Search Results</a>
+                    <a class="heading text-center text-bold  bg-lightgrey  fg-black">Bing Search Results</a>
                     <div class="content text-center" >
 
                     </div>
