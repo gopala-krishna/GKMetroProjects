@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     var config = {
-        siteURL: 'geekgopalakrishna.com',
+        siteURL: 'gopalakrishnaiitb.blogspot.com',
         searchSite: true,
         type: 'web',
         append: false,
@@ -9,8 +9,8 @@ $(document).ready(function () {
         page: 0				// The start page
     }
 
-    // Adding the site domain as a label for the first radio button:
-    $('#siteNameLabel').append(' ' + config.siteURL);
+    //// Adding the site domain as a label for the first radio button:
+    //$('#siteNameLabel').append(' ' + config.siteURL);
 
     // Focusing the input text box:
     $('#s').focus();
