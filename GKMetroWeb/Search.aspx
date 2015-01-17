@@ -76,7 +76,7 @@
                                                          
                 <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
 
-                <div class="accordion-frame active " >
+                <div class="accordion-frame  " >
                     <a class="heading text-center text-bold bg-grey fg-black text-shadow"><h3>Google Search Results</h3></a>
                                                                
                             <div id="resultsDiv">
@@ -90,7 +90,7 @@
                                                                
                 </div>
 
-                <div class="accordion-frame active">
+                <div class="accordion-frame ">
                     <a class="heading text-center text-bold  bg-grey  fg-black text-shadow"><h3>Bing Search Results</h3></a>
 
                 </div>

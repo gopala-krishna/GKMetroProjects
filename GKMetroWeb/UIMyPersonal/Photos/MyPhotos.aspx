@@ -37,7 +37,7 @@
 			}
 		</style>
 		<script type="text/javascript" src="jquery.min.js"></script>
-		<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="jquery.easing.1.3.min.js"></script>
 		<script type="text/javascript">
 			$(window).load(function() {
 				sliderLeft=$('#thumbScroller .container').position().left;

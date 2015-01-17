@@ -24,7 +24,7 @@
                                     </li>
 
                                    <li>
-                                    <a class="dropdown-toggle fg-blue no-marker text-shadow" href ="#">My Personal</a>
+                                    <a class="dropdown-toggle fg-blue no-marker text-shadow text-bold" href ="#">MyPersonal</a>
                                     <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
                                         <li>
                                             <a href="#" class="dropdown-toggle fg-blue ">About Me</a>
