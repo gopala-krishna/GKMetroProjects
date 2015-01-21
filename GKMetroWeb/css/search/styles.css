@@ -133,9 +133,9 @@ p.notFound{
 
 #search input[type="text"] {
     border: 1px solid #d1d1d1;
-    font: bold 12px Segoe UI;
-    color: #bebebe;
-    width: 150px;
+    font: bold 15px Segoe UI;
+    color: black;
+    width: 200px;
     padding: 6px 15px 6px 35px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -152,8 +152,8 @@ p.notFound{
 
 #search input[type="submit"] {
     border: 1px solid #d1d1d1;
-    font: bold 12px Segoe UI;
-    background-color:lightskyblue;
+    font: bold 15px Segoe UI;
+    background-color:white;
     width: 150px;
     padding: 6px 15px 6px 35px;
     -webkit-border-radius: 20px;

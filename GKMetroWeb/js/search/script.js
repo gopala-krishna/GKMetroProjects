@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     var config = {
         siteURL: 'gopalakrishnaiitb.blogspot.com',
+       //siteURL: 'geekgopalakrishna.com',
         searchSite: true,
         type: 'web',
         append: false,
@@ -15,7 +16,7 @@ $(document).ready(function () {
     // Focusing the input text box:
     $('#s').focus();
 
-    $('#searchForm').submit(function () {
+    $('#search').submit(function () {
         config.searchSite = true;
         var selected = $("input[id=searchWeb]:checked");
 
@@ -77,7 +78,7 @@ $(document).ready(function () {
                 // and deciding whether to show the More button:
 
                 if (+cursor.estimatedResultCount > (settings.page + 1) * settings.perPage) {
-                    $('<div>', { id: 'more' }).appendTo(resultsDiv).click(function () {
+                    $('<div>', { id: 'more',text:'More Results'}).appendTo(resultsDiv).click(function () {
                         googleSearch({ append: true, page: settings.page + 1 });
                         $(this).fadeOut();
                     });

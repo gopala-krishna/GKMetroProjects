@@ -31,58 +31,45 @@
     <!-- Local JavaScript -->
     <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
   <title> Search </title>
-        <style type="text/css">
-            .auto-style1 {
-                color: #000000;
-            }
-        </style>
+      
 </head>
     <body class ="metro">
         <header class ="" data-load ="../Header.aspx"></header>
      
-        <%--<div id="page">--%>
+     
 
 
-         <form id="searchForm" method="post">
-                <fieldset>
-           	         <input id="s" type="text" />
-                    <input type="submit" value="Submit" id="submitButton" />
-            
-            <div id="searchInContainer fg-black text-shadow">
-                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="auto-style1 text-shadow">Search Web</span>
-                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="auto-style1 text-shadow">Search Gopala-Krishna.com
-            </span>
-            </div>
-                  
-            </fieldset
-         </form>
-   <%--</div>--%>
-            
-          
-<div class="container ">
-</div>
+     <form id="search" method="post" >
+     <div class="panel text-center">  
+                 <div class="grid no-margin">
+                 <div class="row padding20">
 
-                                      
+                <input id="s" type="text" size="70" placeholder="Search..." />
+                <input type="submit"value="Search" id="submitButton"/> <br />
 
-             <%-- </form>--%>
 
-      
-         <br />
+                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="text-shadow fg-black">Search Web</span>
+                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="text-shadow fg-black">Search Gopala-Krishna.com</span>
+   
+                </div>
+                </div>
+         </div>
+      </form>
+       
            
       
-        <script src="js/search/script.js"></script>
-    <div class="grid no-margin place-right">
-            <div class="row ">
+  <script src="js/search/script.js"></script>
+
+ <div class="panel text-center">
+    <div class="grid">
+            <div class="row padding15">
                                                          
-                <div class="accordion with-marker span12 padding place-right" data-role="accordion" data-closeany="false">
+                <div class="accordion" data-role="accordion" data-closeany="false">
 
                 <div class="accordion-frame  " >
-                    <a class="heading text-center text-bold bg-grey fg-black text-shadow"><h3>Google Search Results</h3></a>
+                    <a class="heading text-center text-bold bg-blue fg-black text-shadow"><h4>Google Search Results</h4></a>
                                                                
                             <div id="resultsDiv">
-
-   
-
 
                             </div>
 
@@ -91,14 +78,14 @@
                 </div>
 
                 <div class="accordion-frame ">
-                    <a class="heading text-center text-bold  bg-grey  fg-black text-shadow"><h3>Bing Search Results</h3></a>
+                    <a class="heading text-center text-bold  bg-blue  fg-black text-shadow"><h4>Bing Search Results</h4></a>
 
                 </div>
                 </div>
             </div>
                                 
 </div>
-
+</div>
 
 
         </body>
