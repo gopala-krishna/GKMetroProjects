@@ -24,19 +24,19 @@
                                     </li>
 
                                    <li>
-                                    <a class="dropdown-toggle fg-blue no-marker text-shadow text-bold" href ="#">MyPersonal</a>
-                                    <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                    <a class="dropdown-toggle fg-blue no-marker  text-bold" href ="#">MyPersonal</a>
+                                    <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
                                         <li>
                                             <a href="#" class="dropdown-toggle fg-blue ">About Me</a>
-                                            <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                            <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover">
                                                 <li><a href="../../../UIMyPersonal/AboutMe/MyInterests.aspx">My Interests</a></li>
                                                 <li><a href="../../../UIMyPersonal/AboutMe/MyProfession.aspx">My Profession</a></li>
                                                 <li><a href="">My Family</a></li>
                                             </ul>
                                         </li>
                                          <li>
-                                            <a href="#" class="dropdown-toggle fg-blue text-shadow">Photos</a>
-                                            <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                            <a href="#" class="dropdown-toggle fg-blue ">Photos</a>
+                                            <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover">
                                                 <li><a href="../../../UIMyPersonal/Photos/MyPhotos.aspx">My Photos</a></li>
                                             </ul>
                                         </li>
@@ -44,25 +44,25 @@
                                 </li><br /><br /><br />
 
                                      <li>
-                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href ="#">Interesting Stuff</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker " href ="#">Interesting Stuff</a>
+                                        <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover">
                                             <li>
-                                                <a href="#" class="dropdown-toggle fg-blue text-shadow">Interesting Facts</a>
-                                                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                                <a href="#" class="dropdown-toggle fg-blue ">Interesting Facts</a>
+                                                <ul class="dropdown-menu fg-blue " data-role="dropdown" data-show="hover">
                                                     <li><a href="../../../UIInterestingStuff/InterstingFacts/InterestingScienceFacts.aspx">Interesting Science Facts</a></li>
                                                 </ul>
                                             </li>
                                              <li>
-                                                <a href="#" class="dropdown-toggle fg-blue text-shadow">Interesting Optical Illusions</a>
-                                                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                                                <a href="#" class="dropdown-toggle fg-blue">Interesting Optical Illusions</a>
+                                                <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
                                                     <li><a href="../../../UIInterestingStuff/InterestingOpticalIllusions/InterestingOpticalIllusions.aspx">Can We Believe Our Eyes?</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li><br /><br /><br />
                                         <li>
-                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href="#">Math Fun</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker " href="#">Math Fun</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -70,8 +70,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle fg-blue no-marker text-shadow" href="#">Music</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
+                                        <a class="dropdown-toggle fg-blue no-marker" href="#">Music</a>
+                                        <ul class="dropdown-menu fg-blue" data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -80,9 +80,9 @@
 
                                           
              <li>
-                <a class="dropdown-toggle fg-blue no-marker text-shadow"  href="#">Technology</a>
+                <a class="dropdown-toggle fg-blue no-marker"  href="#">Technology</a>
 
-                <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
                    
                      <li>
                         <a href="#" class="dropdown-toggle fg-blue">Open Source</a>
@@ -119,8 +119,8 @@
                  </li>
 
                   <li>
-                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Microsoft</a>
-                        <ul class="dropdown-menu fg-blue text-shadow" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue">Microsoft</a>
+                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
                           <%--  <li>
                                   <a href="#" class="dropdown-toggle">DotNet</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -146,8 +146,8 @@
                  </li>
 
                       <li>
-                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Hacking</a>
-                      <%--  <ul class="dropdown-menu dark text-shadow" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue ">Hacking</a>
+                      <%--  <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -159,8 +159,8 @@
                      </li>
 
                       <li>
-                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Databases</a>
-                       <%-- <ul class="dropdown-menu dark text-shadow" data-role="dropdown" data-show="hover">
+                        <a href="#" class="dropdown-toggle fg-blue ">Databases</a>
+                       <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
                                          <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
@@ -172,7 +172,7 @@
                  </li>
 
                     <li>
-                        <a href="#" class="dropdown-toggle fg-blue text-shadow">Tools</a>
+                        <a href="#" class="dropdown-toggle fg-blue ">Tools</a>
                         <%--<ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
@@ -185,7 +185,7 @@
                  </li>
 
                   <li>
-                        <a href="#" class="dropdown-toggle fg-text-shadow ">Blogs</a>
+                        <a href="#" class="dropdown-toggle fg-blue ">Blogs</a>
                        <%-- <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
                             <li>
                                   <a href="#" class="dropdown-toggle">Linux</a>
@@ -208,8 +208,8 @@
                                     
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker text-shadow" href="#">Product Management</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker " href="#">Product Management</a>
+                                        <ul class="dropdown-menu fg-blue " data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%> 
@@ -217,8 +217,8 @@
                                     </li><br /><br /><br />
 
                                         <li>
-                                        <a class="dropdown-toggle  fg-blue no-marker text-shadow" href="#">Entrepreneurship</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow" data-show="hover">
+                                        <a class="dropdown-toggle  fg-blue no-marker " href="#">Entrepreneurship</a>
+                                        <ul class="dropdown-menu fg-blue " data-show="hover">
                                            <%-- <li><a href="#">Sublink 1</a></li>
                                             <li><a href="#">Sublink 2</a></li>
                                             <li><a href="#">Sublink 3</a></li>--%>
@@ -226,8 +226,8 @@
                                     </li><br /><br /><br />
 
                                        <li>
-                                        <a href="#" class="dropdown-toggle fg-blue no-marker text-shadow">GuestBook</a>
-                                        <ul class="dropdown-menu fg-blue text-shadow " data-role="dropdown" data-show="hover"">
+                                        <a href="#" class="dropdown-toggle fg-blue no-marker ">GuestBook</a>
+                                        <ul class="dropdown-menu fg-blue  " data-role="dropdown" data-show="hover"">
                                             <li><a href="../../../UIGuestbook/Guestbook.aspx ">Sign In GuestBook</a></li>
                                         </ul>
                                     </li>
@@ -240,7 +240,7 @@
                             <div class="tile-content">
                                 <div class="panel no-border">
                                     <div class="panel-header bg-blue fg-white text-shadow">Introduction</div>
-                                    <div class="panel-content text-justify text-shadow">
+                                    <div class="panel-content text-justify" >
                                         <img src="images/Gopala_iit.jpg" class="place-left margin10 nlm ntm size2">
                                         <p>Hi...</p>
 
