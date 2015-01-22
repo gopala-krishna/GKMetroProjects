@@ -15,7 +15,7 @@
     <link href="../css/metro-bootstrap-responsive.css" rel="stylesheet"/>
     <link href="../css/iconFont.css" rel="stylesheet"/>
     <link href="../css/docs.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/search/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/search/searchstyles.css" />
 
 
     <!-- Load JavaScript Libraries -->
@@ -58,7 +58,7 @@
        
            
       
-  <script src="js/search/script.js"></script>
+  <script src="js/search/searchscript.js"></script>
 
  <div class="panel text-center">
     <div class="grid">

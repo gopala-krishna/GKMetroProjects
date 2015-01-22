@@ -14,7 +14,7 @@ $(document).ready(function () {
     //$('#siteNameLabel').append(' ' + config.siteURL);
 
     // Focusing the input text box:
-    $('#s').focus();
+    $('#searchInput').focus();
 
     $('#search').submit(function () {
         config.searchSite = true;
@@ -33,7 +33,7 @@ $(document).ready(function () {
         // it takes its defaults from the config object above:
 
         settings = $.extend({}, config, settings);
-        settings.term = settings.term || $('#s').val();
+        settings.term = settings.term || $('#searchInput').val();
 
         if (settings.searchSite) {
             // Using the Google site:example.com to limit the search to a
