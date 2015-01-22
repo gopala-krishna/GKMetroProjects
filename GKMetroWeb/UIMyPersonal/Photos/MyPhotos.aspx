@@ -6,7 +6,7 @@
         <meta name="description" content="Gopala Krishna's Image Gallery" />
         <meta name="keywords" content="Gopala Krishna, IIT Bombay, Microsoft,image gallery, jquery, full page, full screen, css3, auto scroll, scrollable, fancy, photography, portfolio"/>
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="../../css/photos/photostyles.css" type="text/css" media="screen"/>
          <link href="../../css/iconFont.css" rel="stylesheet"/>
         <style>
 			span.reference{
