@@ -44,7 +44,7 @@
                  <div class="grid no-margin">
                  <div class="row padding20">
 
-                <input id="s" type="text" size="70" placeholder="Search..." />
+                <input id="searchInput" type="text" size="70" placeholder="Search..." />
                 <input type="submit"value="Search" id="submitButton"/> <br />
 
 
