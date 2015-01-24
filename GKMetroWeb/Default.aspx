@@ -145,6 +145,36 @@
                         </ul>
                  </li>
 
+                           <li>
+                        <a href="#" class="dropdown-toggle fg-blue">Technology Stacks</a>
+                        <ul class="dropdown-menu fg-blue" data-role="dropdown" data-show="hover">
+                            <li>
+                                  <a href="../../../UITechnology/TechnologyStacks/WebTechStackSearch.aspx">Search</a>
+                            </li>
+                          <%--  <li>
+                                  <a href="#" class="dropdown-toggle">Android</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Apple</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>
+                              <li>
+                                  <a href="#" class="dropdown-toggle">Communities</a>
+                                         <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
+                                            <li><a href="../../../UITechnology/OpenSource/Linux/LinuxBasics.aspx">LinuxBasics</a></li>
+                                            <li></li>
+                                         </ul>
+                            </li>--%>
+                        </ul>
+                 </li>
+
                       <li>
                         <a href="#" class="dropdown-toggle fg-blue ">Hacking</a>
                       <%--  <ul class="dropdown-menu dark" data-role="dropdown" data-show="hover">
