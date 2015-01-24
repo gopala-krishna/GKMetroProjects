@@ -94,7 +94,9 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
             myResponse.Close();
         }
         catch(Exception ex)
-        {  }
+        { 
+            // have to add logging code here
+        }
         return resposeStr;
     }
 }

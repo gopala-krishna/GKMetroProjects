@@ -398,6 +398,14 @@
 
                      <div class="slide">
                         <div class="place-right">
+                            <img src="/images/Banners/facebook.jpg"
+                                 alt="" class="span4" />
+                        </div>
+                        <h2 class="fg-white text-shadow ntm">What technologies are used to build facebook ?</h2>
+                    </div>
+
+                     <div class="slide">
+                        <div class="place-right">
                             <img src="/images/Banners/pi.png"
                                  alt="" class="span4" />
                         </div>
