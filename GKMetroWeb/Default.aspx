@@ -473,7 +473,7 @@
                             <img src="/images/Banners/pig.png"
                                  alt="" class="span4" />
                         </div>
-                        <h2 class="fg-white text-shadow ntm">which animal is lucky to have the longest orgasm?</h2>
+                        <h2 class="fg-white text-shadow ntm">Which animal is lucky to have the longest orgasm?</h2>
                     </div>
 
 
