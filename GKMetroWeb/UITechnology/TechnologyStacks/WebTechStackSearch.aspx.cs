@@ -35,50 +35,66 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
     {
         string w3TechsSource = GetHTMLSource(w3TechUrl);
 
-        //W3 Tech Source Parsing
-        string strw3Tech = w3TechSiteUrl.First().ToString().ToUpper() + w3TechSiteUrl.Substring(1);
-        string w3TechstartWord = "Site Info - " + strw3Tech;
-        int w3TechstartIndex = w3TechsSource.IndexOf(w3TechstartWord);
-        int w3TechLength = w3TechsSource.IndexOf("Share this page") - w3TechsSource.IndexOf(w3TechstartWord);
-        if (w3TechLength < 0)
+        if (w3TechsSource != "")
         {
-            litW3Techs.Text = "No Resutls found";
+            //W3 Tech Source Parsing
+            string strw3Tech = w3TechSiteUrl.First().ToString().ToUpper() + w3TechSiteUrl.Substring(1);
+            string w3TechstartWord = "Site Info - " + strw3Tech;
+            int w3TechstartIndex = w3TechsSource.IndexOf(w3TechstartWord);
+            int w3TechLength = w3TechsSource.IndexOf("Share this page") - w3TechsSource.IndexOf(w3TechstartWord);
+            if (w3TechLength < 0)
+            {
+                litW3Techs.Text = "No Resutls found";
+            }
+            else
+            {
+                string infoString = w3TechsSource.Substring(w3TechsSource.IndexOf(w3TechstartWord), w3TechLength);
+                litW3Techs.Text = infoString;
+            }
         }
         else
-        {
-            string infoString = w3TechsSource.Substring(w3TechsSource.IndexOf(w3TechstartWord), w3TechLength);
-            litW3Techs.Text = infoString;
-        }
+        { litW3Techs.Text = "No Resutls found"; }
 
         string builtWithSource = GetHTMLSource(builtWithUrl);
 
-        // Built With Source Parsing
-        string builtWithstartWord = "homeH1 profileH1";
-        int builtWithstartIndex = builtWithSource.IndexOf(builtWithstartWord);
-        int builtWithLength = builtWithSource.IndexOf("<li><span>Profile Details</span></li>") - builtWithSource.IndexOf(builtWithstartWord);
-
-
-        if (builtWithLength < 0)
+        if(builtWithSource !="")
         {
-            litBuiltWith.Text = "No Resutls found";
+            // Built With Source Parsing
+            string builtWithstartWord = "homeH1 profileH1";
+            int builtWithstartIndex = builtWithSource.IndexOf(builtWithstartWord);
+            int builtWithLength = builtWithSource.IndexOf("<li><span>Profile Details</span></li>") - builtWithSource.IndexOf(builtWithstartWord);
+
+
+            if (builtWithLength < 0)
+            {
+                litBuiltWith.Text = "No Resutls found";
+            }
+            else
+            {
+                string infoString = builtWithSource.Substring(builtWithSource.IndexOf(builtWithstartWord), builtWithLength);
+                string formattedStr = infoString.Remove(0, 18);
+                litBuiltWith.Text = formattedStr;
+            }
         }
         else
-        {
-            string infoString = builtWithSource.Substring(builtWithSource.IndexOf(builtWithstartWord), builtWithLength);
-            string formattedStr = infoString.Remove(0, 18);
-            litBuiltWith.Text = formattedStr;
-        }
+        { litBuiltWith.Text = "No Resutls found"; }
     }
 
     public static String GetHTMLSource(string url)
     {
         HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(url);
+        string resposeStr = String.Empty;
         myRequest.Method = "GET";
-        WebResponse myResponse = myRequest.GetResponse();
-        StreamReader sr = new StreamReader(myResponse.GetResponseStream(), System.Text.Encoding.UTF8);
-        string result = sr.ReadToEnd();
-        sr.Close();
-        myResponse.Close();
-        return result;
+        try
+        {
+            WebResponse myResponse = myRequest.GetResponse();
+            StreamReader sr = new StreamReader(myResponse.GetResponseStream(), System.Text.Encoding.UTF8);
+            resposeStr = sr.ReadToEnd();
+            sr.Close();
+            myResponse.Close();
+        }
+        catch(Exception ex)
+        {  }
+        return resposeStr;
     }
 }
