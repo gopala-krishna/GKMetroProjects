@@ -374,7 +374,8 @@
 
         <div class="bg-blue no-tablet-portrait no-phone ">
             <div class="container">
-                    <h2 class="fg-black text-shadow "><b><i>Find answers by browsing through my website</i></b></h2>
+                      <br />
+                    <h1 class="fg-black text-shadow "><b>Find answers by browsing through my website</b></h1>
                 </div>
             <div class="container padding20 fg-white">
                 <div class="carousel bg-transparent no-overflow" id="carousel2">
