@@ -8,30 +8,29 @@ using System.IO;
 using System.Net;
 using System.Text;
 
-public partial class TestPrototypes_Search : System.Web.UI.Page
+public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.Web.UI.Page
 {
-    static string w3TechUrl; static string w3TechSiteUrl;
+    static string w3TechUrl; static string w3TechSiteUrl; static string searchTerm;
     static string builtWithUrl; static string builtWithSiteUrl;
     protected void Page_Load(object sender, EventArgs e)
     {
-        w3TechSiteUrl = txtSearch.Text.ToString();
+        if (txtSearch.Text.Contains("http://"))
+        {
+            searchTerm = txtSearch.Text.Remove(0, 7);
+        }
+        else
+        {
+            searchTerm = txtSearch.Text;
+        }
+      
+        w3TechSiteUrl = searchTerm.ToString();
         w3TechUrl = "http://w3techs.com/sites/info/" + w3TechSiteUrl;
 
-        builtWithSiteUrl = txtSearch.Text.ToString();
+        builtWithSiteUrl = searchTerm.ToString();
         builtWithUrl = "http://builtwith.com/" + builtWithSiteUrl;
+
     }
 
-    public static String GetHTMLSource(string url)
-    {
-        HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(url);
-        myRequest.Method = "GET";
-        WebResponse myResponse = myRequest.GetResponse();
-        StreamReader sr = new StreamReader(myResponse.GetResponseStream(), System.Text.Encoding.UTF8);
-        string result = sr.ReadToEnd();
-        sr.Close();
-        myResponse.Close();
-        return result;
-    }
     protected void btnSearch_Click(object sender, EventArgs e)
     {
         string w3TechsSource = GetHTMLSource(w3TechUrl);
@@ -69,5 +68,17 @@ public partial class TestPrototypes_Search : System.Web.UI.Page
             string formattedStr = infoString.Remove(0, 18);
             litBuiltWith.Text = formattedStr;
         }
+    }
+
+    public static String GetHTMLSource(string url)
+    {
+        HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(url);
+        myRequest.Method = "GET";
+        WebResponse myResponse = myRequest.GetResponse();
+        StreamReader sr = new StreamReader(myResponse.GetResponseStream(), System.Text.Encoding.UTF8);
+        string result = sr.ReadToEnd();
+        sr.Close();
+        myResponse.Close();
+        return result;
     }
 }

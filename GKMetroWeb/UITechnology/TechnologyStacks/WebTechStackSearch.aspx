@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="WebTechStacks.aspx.cs" Inherits="TestPrototypes_Search" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="WebTechStackSearch.aspx.cs" Inherits="UITechnology_TechnologyStacks_WebTechStackSearch" %>
 
 <html>
     <head runat="server">
@@ -11,14 +11,14 @@
     <meta name="author" content="Gopala Krishna"/>
     <meta name="keywords" content="js, css, metro, framework, windows 8, metro ui, IIT Bombay, Microsoft"/>
 
-    <link href="../css/metro-bootstrap.css" rel="stylesheet"/>
-    <link href="../css/metro-bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="../css/iconFont.css" rel="stylesheet"/>
-    <link href="../css/docs.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="webtechstack.css" />
-    <link rel="stylesheet" type="text/css" href="s35.css" />
-    <link rel="stylesheet" type="text/css" href="builtwith1.css" />
-    <link rel="stylesheet" type="text/css" href="builtwith2.css" />
+    <link href="../../css//metro-bootstrap.css" rel="stylesheet"/>
+    <link href="../../css//metro-bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="../../css//iconFont.css" rel="stylesheet"/>
+    <link href="../../css/docs.css" rel="stylesheet"/>
+    <link href="../../css/webtechstacksearch/webtechstack.css" rel="stylesheet" type="text/css"  />
+    <link href="../../css/webtechstacksearch/w3techs.css" rel="stylesheet" type="text/css"  />
+    <link href="../../css/webtechstacksearch/builtwith1.css" rel="stylesheet" type="text/css"  />
+    <link href="../../css/webtechstacksearch/builtwith2.css" rel="stylesheet" type="text/css"  />
 
      
 
@@ -34,27 +34,21 @@
 
     <!-- Local JavaScript -->
     <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
-  <title> Search </title>
+  
+        <title> Search </title>
       
 </head>
     <body class ="metro">
-        <header class ="" data-load ="../Header.aspx"></header>
 
-      <%--   <div class="panel text-center">  
-                 <div class="grid no-margin">
-                 <div class="row padding20">
 
-                </div>
-                </div>
-         </div>--%>
-
+        <header class ="" data-load ="../../Header.aspx"></header>
 
      <form id="search" runat="server">
      <div class="panel text-center">  
                  <div class="grid no-margin">
                  <div class="row padding20">
           
-                     <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
+                     <asp:TextBox ID="txtSearch" runat="server" ></asp:TextBox>
                      <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
 
                 </div>

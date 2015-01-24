@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="WebTechStacks.aspx.cs" Inherits="TestPrototypes_Search" %>
+﻿
 
 <html>
     <head runat="server">
@@ -15,12 +15,8 @@
     <link href="../css/metro-bootstrap-responsive.css" rel="stylesheet"/>
     <link href="../css/iconFont.css" rel="stylesheet"/>
     <link href="../css/docs.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="webtechstack.css" />
-    <link rel="stylesheet" type="text/css" href="s35.css" />
-    <link rel="stylesheet" type="text/css" href="builtwith1.css" />
-    <link rel="stylesheet" type="text/css" href="builtwith2.css" />
+    <link rel="stylesheet" type="text/css" href="css/search/searchstyles.css" />
 
-     
 
     <!-- Load JavaScript Libraries -->
     <script src="<%= ResolveUrl("~/js/jquery/jquery.min.js")%>"></script>
@@ -39,70 +35,58 @@
 </head>
     <body class ="metro">
         <header class ="" data-load ="../Header.aspx"></header>
-
-      <%--   <div class="panel text-center">  
-                 <div class="grid no-margin">
-                 <div class="row padding20">
-
-                </div>
-                </div>
-         </div>--%>
+     
+     
 
 
-     <form id="search" runat="server">
+     <form id="search" method="post" >
      <div class="panel text-center">  
                  <div class="grid no-margin">
                  <div class="row padding20">
-          
-                     <asp:TextBox ID="txtSearch" runat="server"></asp:TextBox>
-                     <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
 
+                <input id="searchInput" type="text" size="70" placeholder="Search..." />
+                <input type="submit"value="Search" id="submitButton"/> <br />
+
+
+                <input type="radio" name="check" value="web" id="searchWeb" checked />  <span class="text-shadow fg-black">Search Web</span>
+                <input type="radio" name="check" value="site" id="searchSite"  />  <span class="text-shadow fg-black">Search Gopala-Krishna.com</span>
+   
                 </div>
                 </div>
          </div>
+      </form>
        
            
       
-  <%--<script src="webtechstack.js"></script>--%>
+  <script src="js/search/searchscript.js"></script>
 
- <div class="panel  text-left">
+ <div class="panel text-center">
     <div class="grid">
             <div class="row padding15">
                                                          
                 <div class="accordion" data-role="accordion" data-closeany="false">
 
                 <div class="accordion-frame  " >
-                    <a class="heading text-center text-bold bg-blue fg-black text-shadow"><h4>W3Tech Search Results</h4></a>
+                    <a class="heading text-center text-bold bg-blue fg-black text-shadow"><h4>Google Search Results</h4></a>
                                                                
-                            <div>
-                                <asp:Literal runat="server" ID="litW3Techs" />
+                            <div id="resultsDiv">
+
                             </div>
+
+
+                                                               
                 </div>
 
-          
-
-                </div>
-                 </div>
-                </div>
-
-</div>
-
-<div class="panel  text-center">
-    <div class="grid">
-            <div class="row padding15">
-        <div class="accordion" data-role="accordion" data-closeany="false">
                 <div class="accordion-frame ">
-                    <a class="heading text-center text-bold  bg-blue  fg-black text-shadow"><h4>BuiltWith Search Results</h4></a>
+                    <a class="heading text-center text-bold  bg-blue  fg-black text-shadow"><h4>Bing Search Results</h4></a>
 
-                    <div >
-                    <asp:Literal  runat="server" ID="litBuiltWith"></asp:Literal>
-                    </div>
                 </div>
                 </div>
             </div>
-    </div>
+                                
+</div>
 </div>
 
-</form>
-</body>
+
+        </body>
 </html>
