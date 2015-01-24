@@ -19,6 +19,7 @@
     <link href="../../css/webtechstacksearch/w3techs.css" rel="stylesheet" type="text/css"  />
     <link href="../../css/webtechstacksearch/builtwith1.css" rel="stylesheet" type="text/css"  />
     <link href="../../css/webtechstacksearch/builtwith2.css" rel="stylesheet" type="text/css"  />
+    <link href="../../css/webtechstacksearch/netcraft.css" rel="stylesheet" type="text/css"  />
 
      
 
@@ -81,6 +82,22 @@
 
 </div>
 
+ <div class="panel  text-center">
+    <div class="grid">
+            <div class="row padding15">
+        <div class="accordion" data-role="accordion" data-closeany="false">
+                <div class="accordion-frame ">
+                    <a class="heading text-center text-bold  bg-blue  fg-black text-shadow"><h4>NetCraft Search Results</h4></a>
+
+                    <div >
+                    <asp:Literal  runat="server" ID="litNetCraft"></asp:Literal>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+</div>
+
 <div class="panel  text-center">
     <div class="grid">
             <div class="row padding15">
@@ -96,6 +113,8 @@
             </div>
     </div>
 </div>
+
+
 
 </form>
 </body>

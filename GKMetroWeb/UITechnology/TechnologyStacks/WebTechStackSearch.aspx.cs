@@ -12,6 +12,7 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
 {
     static string w3TechUrl; static string w3TechSiteUrl; static string searchTerm;
     static string builtWithUrl; static string builtWithSiteUrl;
+    static string netCraftUrl; static string netCraftSiteUrl;
     protected void Page_Load(object sender, EventArgs e)
     {
         if (txtSearch.Text.Contains("http://"))
@@ -26,6 +27,9 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
         w3TechSiteUrl = searchTerm.ToString();
         w3TechUrl = "http://w3techs.com/sites/info/" + w3TechSiteUrl;
 
+        netCraftSiteUrl = searchTerm.ToString();
+        netCraftUrl = "http://toolbar.netcraft.com/site_report?url=" + netCraftSiteUrl;
+
         builtWithSiteUrl = searchTerm.ToString();
         builtWithUrl = "http://builtwith.com/" + builtWithSiteUrl;
 
@@ -33,6 +37,7 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
 
     protected void btnSearch_Click(object sender, EventArgs e)
     {
+        #region W3Tech
         string w3TechsSource = GetHTMLSource(w3TechUrl);
 
         if (w3TechsSource != "")
@@ -55,6 +60,33 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
         else
         { litW3Techs.Text = "No Resutls found"; }
 
+        #endregion W3Tech
+
+        #region NetCraft
+        string netCraftSource = GetHTMLSource(netCraftUrl);
+
+        if (netCraftSource != "")
+        {
+            //W3 Tech Source Parsing
+            string netCraftStartWord = "site_report_table";
+            int netCraftStartIndex = netCraftSource.IndexOf(netCraftStartWord);
+            int netCraftLength = netCraftSource.IndexOf("Copyright &copy; Netcraft Ltd. 2015") - netCraftSource.IndexOf(netCraftStartWord);
+            if (netCraftLength < 0)
+            {
+                litNetCraft.Text = "No Resutls found";
+            }
+            else
+            {
+                string infoString = netCraftSource.Substring(netCraftSource.IndexOf(netCraftStartWord), netCraftLength);
+                litNetCraft.Text = infoString;
+            }
+        }
+        else
+        { litNetCraft.Text = "No Resutls found"; }
+
+        #endregion NetCraft
+
+        #region builtWith
         string builtWithSource = GetHTMLSource(builtWithUrl);
 
         if(builtWithSource !="")
@@ -78,6 +110,8 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
         }
         else
         { litBuiltWith.Text = "No Resutls found"; }
+
+        #endregion builtWith
     }
 
     public static String GetHTMLSource(string url)
@@ -85,6 +119,7 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
         HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(url);
         string resposeStr = String.Empty;
         myRequest.Method = "GET";
+        myRequest.UserAgent = "Mozilla/5.0 (compatible; Googlebot/2.1)";
         try
         {
             WebResponse myResponse = myRequest.GetResponse();
