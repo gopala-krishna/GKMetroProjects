@@ -17,9 +17,10 @@
     <link href="../../css/docs.css" rel="stylesheet"/>
     <link href="../../css/webtechstacksearch/webtechstack.css" rel="stylesheet" type="text/css"  />
     <link href="../../css/webtechstacksearch/w3techs.css" rel="stylesheet" type="text/css"  />
+      <link href="../../css/webtechstacksearch/netcraft.css" rel="stylesheet" type="text/css"  />
     <link href="../../css/webtechstacksearch/builtwith1.css" rel="stylesheet" type="text/css"  />
     <link href="../../css/webtechstacksearch/builtwith2.css" rel="stylesheet" type="text/css"  />
-    <link href="../../css/webtechstacksearch/netcraft.css" rel="stylesheet" type="text/css"  />
+  
 
      
 
@@ -98,7 +99,7 @@
     </div>
 </div>
 
-<div class="panel  text-center">
+<div class="panel  text-left">
     <div class="grid">
             <div class="row padding15">
         <div class="accordion" data-role="accordion" data-closeany="false">

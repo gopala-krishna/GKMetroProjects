@@ -7,19 +7,19 @@
  */
 
 html{
-    background-color: #DFEBFF;
+    /*background-color: #DFEBFF;*/
 }
 
 body {
-    margin: 10px;
+    /*margin: 10px;
     padding: 0px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Segoe UI';
     color: #303030;
     background-color: white;
     font-size: 0.75em;
     font-weight: normal;
-    line-height: 1.5em;
-    border: 1px solid #cacaca;
+    line-height: 1.5em;*/
+    /*border: 1px solid #cacaca;*/
 }
 
 
@@ -43,13 +43,13 @@ p {
 }
 
 h1, .pagetitle {
-    background:  #004288 url(/images/bar_bg.jpg) repeat-x 0 0;
+    /*background:  #004288 url(/images/bar_bg.jpg) repeat-x 0 0;*/
     color: #FFFFFF;
     text-align: center;
     font-weight: bold;
     padding: 4px;
     margin: 0;
-    font-family: "Trebuchet MS", verdana, sans-serif;
+    font-family:'Segoe UI';
     font-size: 1.7em;
     letter-spacing: 0.04em;
 }
