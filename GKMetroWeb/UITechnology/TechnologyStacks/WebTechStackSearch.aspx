@@ -42,15 +42,20 @@
 </head>
     <body class ="metro">
 
-
         <header class ="" data-load ="../../Header.aspx"></header>
-
+        <div class="panel text-right">  
+         <div class="accordion bg-white text-right" data-role="accordion" data-closeany="false">
+                <div class="accordion-frame bg-white text-right " >
+                    <a class="heading text-right text-bold  fg-black text-shadow"><h1>Search for technologies used in any website</h1></a>
+          </div>
+          </div>
+        </div>
      <form id="search" runat="server">
      <div class="panel text-center">  
                  <div class="grid no-margin">
                  <div class="row padding20">
           
-                     <asp:TextBox ID="txtSearch" runat="server" ></asp:TextBox>
+                     <asp:TextBox ID="txtSearch" runat="server" Width="400px" ></asp:TextBox>
                      <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
 
                 </div>
