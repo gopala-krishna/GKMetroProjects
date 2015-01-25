@@ -37,7 +37,7 @@
     <!-- Local JavaScript -->
     <script src="<%= ResolveUrl("~/js/docs.js")%>"></script>
   
-        <title> Search </title>
+        <title>Interested in finding out on what technogy stack a website was built on</title>
       
 </head>
     <body class ="metro">
