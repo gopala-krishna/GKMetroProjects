@@ -78,7 +78,8 @@ public partial class UITechnology_TechnologyStacks_WebTechStackSearch : System.W
             else
             {
                 string infoString = netCraftSource.Substring(netCraftSource.IndexOf(netCraftStartWord), netCraftLength);
-                litNetCraft.Text = infoString;
+                string formattedStr = infoString.Remove(0, 41);
+                litNetCraft.Text = formattedStr;
             }
         }
         else

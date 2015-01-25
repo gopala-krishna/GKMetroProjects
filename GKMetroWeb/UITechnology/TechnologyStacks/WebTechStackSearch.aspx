@@ -59,11 +59,11 @@
        
            
       
-  <%--<script src="webtechstack.js"></script>--%>
+
 
  <div class="panel  text-left">
     <div class="grid">
-            <div class="row padding15">
+            <div class="row padding20">
                                                          
                 <div class="accordion" data-role="accordion" data-closeany="false">
 
@@ -85,11 +85,10 @@
 
  <div class="panel  text-center">
     <div class="grid">
-            <div class="row padding15">
+            <div class="row padding20">
         <div class="accordion" data-role="accordion" data-closeany="false">
                 <div class="accordion-frame ">
                     <a class="heading text-center text-bold  bg-blue  fg-black text-shadow"><h4>NetCraft Search Results</h4></a>
-
                     <div >
                     <asp:Literal  runat="server" ID="litNetCraft"></asp:Literal>
                     </div>
